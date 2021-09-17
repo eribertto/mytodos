@@ -5,6 +5,9 @@
 --
 resume Coursera PMP course
 test drive endeavourOS live usb iso
+✔ note: snapd install in opensuse nuc box failed @done(21-09-17 16:48)
+	✔ failed in the snapd enable portion @done(21-09-17 16:48)
+	✔ https://snapcraft.io/install/jdownloader2/opensuse#:~:text=JDownloader%20JDownloader%20is%20a%20free,%20open-source%20download%20management,set%20bandwith%20limitations,%20auto-extract%20archives%20and%20much%20more. @done(21-09-17 16:49)
 ✔ ran command in nuc opensuse box yes | sudo zypper dist-upgrade @done(21-09-17 13:58)
 	requires reboot after
 
