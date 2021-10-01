@@ -1,5 +1,8 @@
 
 
+✔ note the installed bins in .cargo/bins @done(21-10-01 16:44)
+	special mention: bacon exa mdcat notnow
+	bacon  cargo  cargo-clippy  cargo-fmt  cargo-miri  clippy-driver  evcxr  exa  mdcat  notnow  rls  rust-gdb  rust-lldb  rustc  rustdoc  rustfmt  rustup
 
 ☐ Fork tty-todo to own repo then clone to local box then create new branch then modify the code to show numbers whne todo list command is executed
 	repo link: https://github.com/raad1masum/tty-todo
