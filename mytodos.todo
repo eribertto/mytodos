@@ -5,10 +5,10 @@
 	bacon  cargo  cargo-clippy  cargo-fmt  cargo-miri  clippy-driver  evcxr  exa  mdcat  notnow  rls  rust-gdb  rust-lldb  rustc  rustdoc  rustfmt  rustup
 
 ☐ contact danlogs or danologue in twitter to ask for rust mentorship, pay if required.
-☐ fill up coursera smart template and submit, copy of template in google drive and inbox SA
+✔ fill up coursera smart template and submit, copy of template in google drive and inbox SA @done(21-10-15 10:16)
 ☐ take note edureka PMP training program offer
 ☐ cancel OR change payment card for Miro subscription
-☐ Fork tty-todo to own repo then clone to local box then create new branch then modify the code to show numbers whne todo list command is executed
+✔ Fork tty-todo to own repo then clone to local box then create new branch then modify the code to show numbers whne todo list command is executed @done(21-10-15 10:16)
 	✔ another todo candidate: https://github.com/sioodmy/todo @done(21-10-01 19:07)
 	repo link: https://github.com/raad1masum/tty-todo
 	and another one: https://github.com/VladimirMarkelov/ttdl
