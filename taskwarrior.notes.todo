@@ -1,0 +1,13 @@
+✔ Begin taking notes of Taskwarrior CLI manager installed in Endeavour OS box @done(21-10-22 10:42)
+to create tags just prepend + sign before the tag name like so:
+	task add +home +work Water the flowers
+	executing task or task li will show you that tag
+	each task can be associated with at least one project. note that a project in this context is just a plain-text attribute.
+	task subproject can be accessed via the dot notation e.g. project.subproject 'add your text here'
+	priority attributes specify the priority of the task[s].
+	set editor env variable to whatever you choose in dot bashrc then when you do the command task <iD> edit, your editor will open the task ID for editing.
+	note: installed taskd aka taskserver with yay
+	You must specify the 'server' variable before attempting a server start, for example:
+		taskd config server localhost:53589
+
+	
