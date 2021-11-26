@@ -1,3 +1,4 @@
+✔ installed taskwarrior in pop_OS box, also apply update to the system and reboot @done(21-11-26 10:54)
 ✔ Begin taking notes of Taskwarrior CLI manager installed in Endeavour OS box @done(21-10-22 10:42)
 to create tags just prepend + sign before the tag name like so:
 	task add +home +work Water the flowers
