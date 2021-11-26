@@ -1,14 +1,18 @@
 
 
+my todos for friday Nov 26 in pop-OS box:
+	✔ apply updates to pop-OS box @done(21-11-26 10:58)
+	✔ install taskwarrior in pop-os box @done(21-11-26 10:59)
+	✔ clone to this box all completed courses in Google project management certification @done(21-11-26 11:00)
+	☐ contact danlogs or danologue in twitter to ask for rust mentorship, pay if required.
+	☐ take note edureka PMP training program offer
+	☐ cancel OR change payment card for Miro subscription
 ✔ refer to downloaded media file mp4 re organizing proj documentation @done(21-10-15 10:19)
 ✔ note the installed bins in .cargo/bins @done(21-10-01 16:44)
 	special mention: bacon exa mdcat notnow
 	bacon  cargo  cargo-clippy  cargo-fmt  cargo-miri  clippy-driver  evcxr  exa  mdcat  notnow  rls  rust-gdb  rust-lldb  rustc  rustdoc  rustfmt  rustup
 
-☐ contact danlogs or danologue in twitter to ask for rust mentorship, pay if required.
-☐ take note edureka PMP training program offer
 ✔ fill up coursera smart template and submit, copy of template in google drive and inbox SA @done(21-10-15 10:16)
-☐ cancel OR change payment card for Miro subscription
 ✔ Fork tty-todo to own repo then clone to local box then create new branch then modify the code to show numbers whne todo list command is executed @done(21-10-15 10:16)
 	✔ another todo candidate: https://github.com/sioodmy/todo @done(21-10-01 19:07)
 	repo link: https://github.com/raad1masum/tty-todo
