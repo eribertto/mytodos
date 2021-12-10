@@ -5,6 +5,7 @@ my todos Nov 27:
 	✔ install freeplane in manjaro @done(21-11-27 17:14)
 	☐ install zoom or teams 365 based on aur package list
 	☐ see this link https://aur.archlinux.org/packages/?SB=p&SO=d&O=50
+	☐ cancel OR change payment card for Miro subscription
 
 my todos for friday Nov 26 in pop-OS box:
 	✔ create a new repo in pop-os by copying all mindmap files then initialize, upload to GH as backup of Bitbucket mindmap repo. @done(21-11-26 20:48)
@@ -12,12 +13,11 @@ my todos for friday Nov 26 in pop-OS box:
 	✔ apply updates to pop-OS box @done(21-11-26 10:58)
 	✔ install taskwarrior in pop-os box @done(21-11-26 10:59)
 	✔ clone to this box all completed courses in Google project management certification @done(21-11-26 11:00)
-	☐ check whereabouts of CTB package LBC AWB no. 173466024292
-	☐ cancel OR change payment card for Miro subscription
+	✔ check whereabouts of CTB package LBC AWB no. 173466024292 @done(21-12-10 10:05)
 	✔ contact danlogs or danologue in twitter to ask for rust mentorship, pay if required. @done(21-11-26 11:45)
 	✔ take note edureka PMP training program offer @done(21-11-26 11:45)
-✔ refer to downloaded media file mp4 re organizing proj documentation @done(21-10-15 10:19)
-✔ note the installed bins in .cargo/bins @done(21-10-01 16:44)
+	✔ refer to downloaded media file mp4 re organizing proj documentation @done(21-10-15 10:19)
+	✔ note the installed bins in .cargo/bins @done(21-10-01 16:44)
 	special mention: bacon exa mdcat notnow
 	bacon  cargo  cargo-clippy  cargo-fmt  cargo-miri  clippy-driver  evcxr  exa  mdcat  notnow  rls  rust-gdb  rust-lldb  rustc  rustdoc  rustfmt  rustup
 
