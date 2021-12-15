@@ -1,6 +1,7 @@
 
 my todos Dec 10-17
 	☐ track amazon order BT earphone & car converter (mark complete when receive)
+	✔ success running dist-upgrade to NUC tumbleweed box @done(21-12-15 20:51)
 	✔ in pop-os box ran sudo apt update && sudo apt dist-upgrade then sudo pop-upgrade release upgrade @done(21-12-15 16:03)
 	✔ today ran update in manjaro box but too much dep errors: @done(21-12-15 16:03)
 error: failed to prepare transaction (could not satisfy dependencies)
