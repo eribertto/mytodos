@@ -1,7 +1,8 @@
 
 my todos Dec 10-17
 	☐ track amazon order BT earphone & car converter (mark complete when receive)
-	today ran update in manjaro box but too much dep errors:
+	✔ in pop-os box ran sudo apt update && sudo apt dist-upgrade then sudo pop-upgrade release upgrade @done(21-12-15 16:03)
+	✔ today ran update in manjaro box but too much dep errors: @done(21-12-15 16:03)
 error: failed to prepare transaction (could not satisfy dependencies)
 :: installing icu (70.1-1) breaks dependency 'libicuuc.so=69-64' required by harfbuzz-icu
 :: installing libelf (0.186-1) breaks dependency 'libelf=0.185' required by lib32-libelf
