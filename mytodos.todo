@@ -1,9 +1,20 @@
 
 my todos Dec 10-17
-	✔ topup 50k from my BPI to Tonik account @done(21-12-14 20:03)
 	☐ track amazon order BT earphone & car converter (mark complete when receive)
-	☐ enroll Tonik bank PESONet account in MBT android app
-	☐ topup Tonik with PESONet using MBT app, see Tonik snap in google drive folder
+	today ran update in manjaro box but too much dep errors:
+error: failed to prepare transaction (could not satisfy dependencies)
+:: installing icu (70.1-1) breaks dependency 'libicuuc.so=69-64' required by harfbuzz-icu
+:: installing libelf (0.186-1) breaks dependency 'libelf=0.185' required by lib32-libelf
+:: installing icu (70.1-1) breaks dependency 'libicuuc.so=69-64' required by libphonenumber
+:: installing icu (70.1-1) breaks dependency 'libicui18n.so=69-64' required by libphonenumber
+:: installing icu (70.1-1) breaks dependency 'icu<69.2' required by manjaro-settings-manager
+:: installing icu (70.1-1) breaks dependency 'libicudata.so=69-64' required by raptor
+:: installing icu (70.1-1) breaks dependency 'libicui18n.so=69-64' required by raptor
+:: installing icu (70.1-1) breaks dependency 'libicuuc.so=69-64' required by raptor
+
+	✔ topup 50k from my BPI to Tonik account @done(21-12-14 20:03)
+	✔ enroll Tonik bank PESONet account in MBT android app @done(21-12-15 13:59)
+	✔ topup Tonik with PESONet using MBT app, see Tonik snap in google drive folder @done(21-12-15 13:59)
 	✔ install freeplane native deb file in Pop-OS box then upgrade it by downloading the latest version in freeplane website @done(21-12-11 13:43)
 	✔ resume Coursera PM course @done(21-12-10 11:42)
 	✔ do car wash schedule by camp cleaners @done(21-12-10 12:42)
