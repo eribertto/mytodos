@@ -2,7 +2,15 @@
 		✔ Section Introduction @done(22-02-22 19:11)
 		✔ AWS Compute Services – Overview @done(22-02-22 19:25)
 		✔ AWS Container Services – Overview @done(22-02-22 19:32)
-		☐ AWS Storage Services – Overview
+		✔ AWS Storage Services – Overview @done(22-02-23 20:25)
+		✔ AWS Database Services – Overview @done(22-02-23 20:40)
+		✔ AWS Monitoring Services – Overview @done(22-02-23 20:48)
+		✔ AWS Audit and Compliance Services @done(22-02-23 20:53)
+		✔ AWS Networking and Content Delivery Services – Overview @done(22-02-23 21:11)
+		✔ AWS Application Integration Services – Overview @done(22-02-23 21:22)
+		✔ AWS Security Services – Overview @done(22-02-23 21:36)
+		☐ AWS Management and Governance Services – Overview
+
 	✔ note: i'm doing the Udemy AWS SAA-C02 course in the office workstation. Lesson notes are saved in MS oneNote and exported as pdf. @done(22-02-22 18:06)
 	✔ todo: get the AWS ramped-up pdf guide for reference @done(22-02-21 21:07)
 ✔ start Section 3: Amazon Web Services (AWS) Basics @done(22-02-21 21:07)
