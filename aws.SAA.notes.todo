@@ -1,3 +1,18 @@
+	✔ success configuring AWS CLI in linux box by virtue of output below: @done(22-02-24 17:41)
+		$ aws iam list-users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "eriberto-iam-user",
+            "UserId": "AIDARSSMXXDNSDVU7OLXQ",
+            "Arn": "arn:aws:iam::108608862427:user/eriberto-iam-user",
+            "CreateDate": "2022-02-22T11:24:36+00:00",
+            "PasswordLastUsed": "2022-02-24T14:07:48+00:00"
+        }
+    ]
+}
+
 	take note of this AWS normal user created under root account eribert dot mendez at gmil dot com
 	big note: this user is using MFA (authy in the cellphone) to get random codes for more secure login.
 		account ID: 108608862427
