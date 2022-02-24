@@ -1,3 +1,12 @@
+	take note of this AWS normal user created under root account eribert dot mendez at gmil dot com
+	big note: this user is using MFA (authy in the cellphone) to get random codes for more secure login.
+		account ID: 108608862427
+		login page: https://108608862427.signin.aws.amazon.com/console
+		IAM user: eriberto-iam-user
+		passwd: YEu4WF#F<ud6P(aP
+		arn:aws:iam::108608862427:user/eriberto-iam-user
+		root user: eribert dot mendez at gmil dot com
+		passwd: TYU88**iop))
 	✔ installed aws cli for linux in mxlinux box per this link https://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst @done(22-02-24 16:56)
 	✔ next session resume to Section 4: AWS Services Categories @done(22-02-22 19:03)
 		✔ Section Introduction @done(22-02-22 19:11)
