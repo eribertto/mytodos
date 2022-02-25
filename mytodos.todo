@@ -1,5 +1,12 @@
 
 my todos Feb 21-March 10, 2022
+	take note of install details mxlinux:
+		Feb. 23/22: installed mxlinux over pop-OS in E590 laptop since pop is sluggish when used with the big tv screen
+		installed it in partition /dev/sda clean install
+		note manjaro is still in /dev/nvme0n1 partition
+		username: eribertto
+		passwd: MKO00987ytr
+		root passwd: bb..midi99
 	note: changed name in dot gitconfig from eri mendz to eribertto_garuda_mate_nucbox
 	success installing Garuda MATE in nucbox nvme01 disk
 	also updated the system and install the necessary applications including this vscode and vivaldi
