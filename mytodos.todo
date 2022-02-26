@@ -1,6 +1,7 @@
 
 my todos Feb 21-March 10, 2022
 	✔ today installed arcolinux in Thinkpad T460 laptop in /dev/sda, /dev/sdb is Mxlinux fluxbox flavor @done(22-02-26 08:32)
+		note mxlinux fluxbox can no longer be booted, grub is messed up
 	✔ note: I activated FB login in firefox MXlinux box but run it in FF container @done(22-02-25 19:51)
 	take note of install details mxlinux:
 		Feb. 23/22: installed mxlinux over pop-OS in E590 laptop since pop is sluggish when used with the big tv screen
