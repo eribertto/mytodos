@@ -1,5 +1,6 @@
 
 my todos Feb 21-March 10, 2022
+	✔ Note: you can do minimal tiling in Budgie desktop by using the window shuffler @done(22-02-26 13:12)
 	✔ today installed arcolinux in Thinkpad T460 laptop in /dev/sda, /dev/sdb is Mxlinux fluxbox flavor @done(22-02-26 08:32)
 		note mxlinux fluxbox can no longer be booted, grub is messed up
 	✔ note: I activated FB login in firefox MXlinux box but run it in FF container @done(22-02-25 19:51)
