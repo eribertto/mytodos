@@ -20,3 +20,8 @@ create EC2 instance with EC2 user data to show data in website
 		✔ new password after login reset aPzvx5>W7/7{ @done(22-03-03 21:25)
 		note: this user cannot perform basic view functions due insufficient rights previledges
 		note2: after user edit in root account, this user now belongs to admin group with administrator previledges
+In creating EC2 instance make sure to copy the code bash script downloadable in Section 2 resources and put this script in the user data field in the configure instance tab.
+
+note: cannot launch EC2 instance as there is an error saying
+Launch Failed
+This account is currently blocked and not recognized as a valid account. Please contact aws-verification@amazon.com if you have questions.
