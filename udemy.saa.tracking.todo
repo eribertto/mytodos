@@ -1,0 +1,18 @@
+March 3/22 begin EC2 fundamentals
+✔ AWS budget setup @done(22-03-03 19:40)
+✔ EC2 basics @done(22-03-03 19:40)
+	Select OS e.g. Linux, Windows, Mac
+	Compute power and cores
+	How much random access memory RAM
+	How much storage
+		Network attached EBS/EFS
+	Check the pdf guide for more details
+✔ Important: about the new EC2 instance launch console @done(22-03-03 19:40)
+✔ Note the password reset for eribert dot mendez gmil account March 3/22 @done(22-03-03 19:40)
+	NJIop00))99((
+✔ Note the new user created @done(22-03-03 19:40)
+	eriberto-normalu
+	Temp passwd BB dotdot midi **99 (for reset on next login)
+	Created group admin to add the user to this group
+		Success creating this user and added to group admin
+		https://108608862427.signin.aws.amazon.com/console
