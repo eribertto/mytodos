@@ -17,3 +17,4 @@ create EC2 instance with EC2 user data to show data in website
 	Created group admin to add the user to this group
 		Success creating this user and added to group admin
 		https://108608862427.signin.aws.amazon.com/console
+		✔ new password after login reset aPzvx5>W7/7{ @done(22-03-03 21:25)
