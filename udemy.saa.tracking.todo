@@ -19,3 +19,4 @@ create EC2 instance with EC2 user data to show data in website
 		https://108608862427.signin.aws.amazon.com/console
 		✔ new password after login reset aPzvx5>W7/7{ @done(22-03-03 21:25)
 		note: this user cannot perform basic view functions due insufficient rights previledges
+		note2: after user edit in root account, this user now belongs to admin group with administrator previledges
