@@ -25,3 +25,13 @@ In creating EC2 instance make sure to copy the code bash script downloadable in 
 note: cannot launch EC2 instance as there is an error saying
 Launch Failed
 This account is currently blocked and not recognized as a valid account. Please contact aws-verification@amazon.com if you have questions.
+
+possible solution: https://forums.aws.amazon.com/thread.jspa?messageID=970130
+
+The welcome email which comes up upon signing up to aws account, says that as a new customer, you can launch EC2 instance in 3 regions. Please use only the suggested region for launching instances. If you use other than that and do not inform to aws then your account might get blocked.
+Suggest regions are
+US East (N. Virginia)
+US East (Ohio)
+US West (Oregon)
+
+Unfortunately if you have created the instance in other region then create AMI of it and move it into one of the above regions.
