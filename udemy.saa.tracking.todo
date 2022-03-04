@@ -1,4 +1,11 @@
-✔ resume to section 34 EC2 Instance types basics @done(22-03-04 20:52)
+resume to section 34 EC2 Instance types basics
+	✔ section 34 EC2 Instance types basics @done(22-03-04 20:53)
+	✔ section 35 Secu groups & classic ports overview @done(22-03-04 20:59)
+	✔ section 36 Secu groups hands on @done(22-03-04 20:59)
+	✔ section 37 SSH overview @done(22-03-04 21:04)
+	✔ section 38 How to ssh to Linux or Mac @done(22-03-04 21:06)
+	✔ skip section 39 ssh to windows @done(22-03-04 21:10)
+	☐ my hands-on: create EC2 instance in AWS account
 create EC2 instance with EC2 user data to show data in website
 ✔ March 3/22 begin EC2 fundamentals @done(22-03-03 19:43)
 ✔ AWS budget setup @done(22-03-03 19:40)
