@@ -3,9 +3,11 @@ start Section 5: AWS Identity and Management (AWS IAM)
 ✔ IAM overview @done(22-03-04 08:25)
 ✔ IAM Identities @done(22-03-04 19:15)
 ✔ IAM Policy types @done(22-03-04 19:23)
-☐ IAM Policy basics
-☐ IAM Policy evaluation logic
-☐ IAM quiz (SAA)
+✔ IAM Policy basics @done(22-03-04 19:54)
+✔ IAM Policy evaluation logic @done(22-03-04 19:54)
+	✔ First try scored 1/2 or 50% @done(22-03-04 20:11)
+	✔ second try scored 2/2 or 100% @done(22-03-04 20:14)
+✔ IAM quiz (SAA) @done(22-03-04 20:11)
 Resume video tutorials Dojo AWS SAA-C02 Section 4 overviews:
 ✔ AWS Management and Governance @done(22-02-25 06:33)
 ✔ AWS Identity Services @done(22-02-25 06:45)
