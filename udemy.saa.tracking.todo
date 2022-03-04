@@ -12,6 +12,8 @@ resume to section 34 EC2 Instance types basics
 		✔ region is changed from singapore to N. Virginia @done(22-03-04 21:55)
 		✔ result: launch failed. Launch Failed @done(22-03-04 21:55)
 		✔ This account is currently blocked and not recognized as a valid account. Please contact aws-verification@amazon.com if you have questions. @done(22-03-04 21:56)
+	✔ hands-on EC2 create instance using AWS hotmail account @done(22-03-04 22:10)
+		✔ result: error due to payment method credit card (not deducted $1) @done(22-03-04 22:10)
 create EC2 instance with EC2 user data to show data in website
 ✔ March 3/22 begin EC2 fundamentals @done(22-03-03 19:43)
 ✔ AWS budget setup @done(22-03-03 19:40)
