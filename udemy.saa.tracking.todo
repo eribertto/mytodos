@@ -8,6 +8,10 @@ resume to section 34 EC2 Instance types basics
 	✔ my hands-on: create EC2 instance in AWS account as normal user @done(22-03-04 21:44)
 		✔ fail when creating instance in Ohio region @done(22-03-04 21:40)
 		✔ fail when creating instance in N. Virginia region @done(22-03-04 21:43)
+	✔ my hands-on 2: create EC2 instance as root user @done(22-03-04 21:51)
+		✔ region is changed from singapore to N. Virginia @done(22-03-04 21:55)
+		✔ result: launch failed. Launch Failed @done(22-03-04 21:55)
+		✔ This account is currently blocked and not recognized as a valid account. Please contact aws-verification@amazon.com if you have questions. @done(22-03-04 21:56)
 create EC2 instance with EC2 user data to show data in website
 ✔ March 3/22 begin EC2 fundamentals @done(22-03-03 19:43)
 ✔ AWS budget setup @done(22-03-03 19:40)
