@@ -1,4 +1,5 @@
 
+	in AWS erimendz at hotml account I can create EC2 instance just fine. But in gmail account i get error.
 	✔ update: AWS case this account is blocked is resolved as per support ticket received. @done(22-03-06 19:22)
 		error message after logging in as root account eribert dot mendez
 		Your AWS account was suspended because you have past due charges, or your account details couldn't be verified.
