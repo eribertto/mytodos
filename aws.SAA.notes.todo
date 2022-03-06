@@ -1,7 +1,10 @@
 
-	in AWS erimendz at hotml account I can create EC2 instance just fine. Also i can ssh from my MXLinux box to the EC2 instance by following the instructions in the Udemy video course.
+	✔ note the EC2 instance is stopped momentarily until i complete the rest of EC2 handson. @done(22-03-06 20:31)
 
-	success creating one budget threshold at 75% of 10$ budget aggregated monthly.
+	✔ success creating one budget threshold at 75% of 10$ budget aggregated monthly. @done(22-03-06 20:31)
+
+	✔ in AWS erimendz at hotml account I can create EC2 instance just fine. Also i can ssh from my MXLinux box to the EC2 instance by following the instructions in the Udemy video course. @done(22-03-06 20:31)
+
 
 	✔ update: AWS case this account is blocked is resolved as per support ticket received. @done(22-03-06 19:22)
 		error message after logging in as root account eribert dot mendez
