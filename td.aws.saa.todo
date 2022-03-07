@@ -1,9 +1,20 @@
 ✔ Next session start to Section 6 Amazon Virtual Private Cloud VPC @done(22-03-07 15:38)
 	✔ AWS VPC overview @done(22-03-07 15:38)
 	✔ Anatomy of AWS VPC @done(22-03-07 16:23)
-	☐ AWS VPC Network Architectures
-	☐ Hands-on lab 1
-	☐ Hands-on lab 2
+		note the different components below:
+			CIDR block
+				specifies how big or small your network IPs can be via netmask CIDR notation
+			Subnets
+			Route table
+			DHCP Options set
+			NAT devices
+			Network ACLs
+			Security groups
+			Different types of gateways
+	✔ AWS VPC Network Architectures @done(22-03-07 20:05)
+	✔ Hands-on lab 1 Exploring the VPC console @done(22-03-07 20:26)
+	✔ Hands-on lab 2 Launching an amazon VPC @done(22-03-07 20:38)
+	✔ TAke quiz VPC. Result: pass 100% try 2 @done(22-03-07 20:48)
 Resume Section 5 AWS Identity and Management IAM
 start Section 5: AWS Identity and Management (AWS IAM)
 ✔ IAM overview @done(22-03-04 08:25)
