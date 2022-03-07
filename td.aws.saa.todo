@@ -1,4 +1,9 @@
-☐ Next session start to Section 6 Amazon Virtual Private Cloud VPC
+✔ Next session start to Section 6 Amazon Virtual Private Cloud VPC @done(22-03-07 15:38)
+	✔ AWS VPC overview @done(22-03-07 15:38)
+	✔ Anatomy of AWS VPC @done(22-03-07 16:23)
+	☐ AWS VPC Network Architectures
+	☐ Hands-on lab 1
+	☐ Hands-on lab 2
 Resume Section 5 AWS Identity and Management IAM
 start Section 5: AWS Identity and Management (AWS IAM)
 ✔ IAM overview @done(22-03-04 08:25)
