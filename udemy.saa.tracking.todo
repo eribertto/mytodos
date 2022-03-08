@@ -1,4 +1,16 @@
-☐ todo: next session start at section 6 SAA level
+✔ todo: next session start at section 6 SAA level @done(22-03-08 19:57)
+	completed the quiz EC2 SAA Level, score: 5 of 6
+	no. 47 Private vs Public vs Elastic IP
+	no. 48 Hands on: Private vs Public vs Elastic IP
+	no. 49 Placement Groups
+	no. 50 Hands on: Placement Groups
+	no. 51 Overview Elastic Network Interfaces ENI
+	no. 52 Hands on: Elastic Network Interfaces ENI
+	no. 53 ENI extra reading
+	no. 54 EC2 Hibernate
+	no. 55 Hands on: EC2 Hibernate
+	no. 56 EC2 Advanced Concepts Nitro, vCPU, Capacity Reservations
+
 ✔ finished section 5 quiz and scored 11/11 or 100% @done(22-03-06 21:23)
 ✔ finish section 40-46 including the end of section quiz. @done(22-03-06 21:23)
 ✔ note the EC2 instance is stopped momentarily until i complete the rest of EC2 handson. @done(22-03-06 20:31)
