@@ -1,23 +1,23 @@
 	✔ next sesssion start to Section 7 EC2 Instance Storage @done(22-03-09 20:44)
 	 	✔ Passed Section 7 quiz scored 2 of 2 or 100% @done(22-03-09 20:47)
 		✔ Finish all Section 7 EC2 Instance Storage: @done(22-03-09 20:47)
-			Amazon EC2 overview
-			Instance Purchasing options
-			Spot instances
-			On-demand EC2 instances
-			Reserved Instances
-			Dedicated hosts and instances
-			Savings plans
-			Capacity reservation
-			Instance types
-			Amazon Machine Image AMI
-			Instance user data
-			Instance metadata
-			Amazon EC2 networking
-			Amazon EC2 network security
-			Placement groups
-			Hands-on Lab Launching Amazon EC2 instance
-			EC2 quiz (scored 2 of 2 100%)
+			✔ Amazon EC2 overview @done(22-03-11 10:50)
+			✔ Instance Purchasing options @done(22-03-11 10:50)
+			✔ Spot instances @done(22-03-11 10:50)
+			✔ On-demand EC2 instances @done(22-03-11 10:50)
+			✔ Reserved Instances @done(22-03-11 10:50)
+			✔ Dedicated hosts and instances @done(22-03-11 10:50)
+			✔ Savings plans @done(22-03-11 10:50)
+			✔ Capacity reservation @done(22-03-11 10:50)
+			✔ Instance types @done(22-03-11 10:50)
+			✔ Amazon Machine Image AMI @done(22-03-11 10:50)
+			✔ Instance user data @done(22-03-11 10:50)
+			✔ Instance metadata @done(22-03-11 10:50)
+			✔ Amazon EC2 networking @done(22-03-11 10:50)
+			✔ Amazon EC2 network security @done(22-03-11 10:50)
+			✔ Placement groups @done(22-03-11 10:50)
+			✔ Hands-on Lab Launching Amazon EC2 instance @done(22-03-11 10:50)
+			✔ EC2 quiz (scored 2 of 2 100%) @done(22-03-11 10:50)
 ✔ todo: next session start at section 6 SAA level @done(22-03-08 19:57)
 	completed the quiz EC2 SAA Level, score: 5 of 6
 	no. 47 Private vs Public vs Elastic IP
