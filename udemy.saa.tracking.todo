@@ -1,3 +1,19 @@
+	✔ start Section 7 EC2 instance storage @done(22-03-11 10:51)
+	☐ EBS overview
+	☐ EBS hands on
+	☐ EBS snapshots overview
+	☐ EBS snapshots hands on
+	☐ AMI overview
+	☐ AMI hands on
+	☐ ECS instance store
+	☐ EBS volume types
+	☐ EBS multi-attach
+	☐ EBS encryption
+	☐ EFS overview
+	☐ EFS hands on
+	☐ EFS vs EBS
+	☐ EBS & EFS section cleanup
+Quiz 4: EC2 data management quiz
 	✔ next sesssion start to Section 7 EC2 Instance Storage @done(22-03-09 20:44)
 	 	✔ Passed Section 7 quiz scored 2 of 2 or 100% @done(22-03-09 20:47)
 		✔ Finish all Section 7 EC2 Instance Storage: @done(22-03-09 20:47)
