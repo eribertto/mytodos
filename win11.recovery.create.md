@@ -8,5 +8,7 @@ did not registered to HP ads nor provide location, locate machine if lost, ads, 
 create recovery drive using usb disk (takes some few hours)
 todo: setup users to use this PC (local only not giving MS account)
 
+info: firewall and antivirus are already enabled in Windows 11 so it has basic protection when online
+
 How to Set Up and Use Windows 11 Without a Microsoft Account
 https://mashtips.com/use-windows-11-with-local-account/
