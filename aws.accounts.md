@@ -1,6 +1,13 @@
 Begin tracking AWS login accounts
 ##AWS eribert dot mendez gmail account
+--
 march 11/22
+
+note the new sign-in url of normal user (created alias)
+https://eriberto-normalu.signin.aws.amazon.com/console
+
+**success making hands-on  AWS CLI in linux e.g. created new access keys, downloaded the csv file then in cli run aws configure and provided the ID and keys and accepted the rest of defaults, then running the command aws iam list-users showed the list of users in this (normal) account.
+
 AWS eribert.mendez root account is now fixed e.g. can login as root user
 note: normal user eriberto-normalu is listed as user
 logging in to this normal user is: success, can login!
