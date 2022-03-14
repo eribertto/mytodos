@@ -1,3 +1,8 @@
+	✔ start Section 8 High availability and scaleability ELB & ASG @done(22-03-14 21:25)
+		✔ High availability and Scalability overview @done(22-03-14 21:26)
+		✔ Elastic load balancing ELB overview @done(22-03-14 21:26)
+		✔ Classic load balancer CLB @done(22-03-14 21:28)
+		☐ Hands-on Classic load balancer CLB
 	✔ start Section 7 EC2 instance storage @done(22-03-11 10:51)
 	✔ EBS overview @done(22-03-11 17:03)
 	✔ EBS hands on @done(22-03-11 17:03)
