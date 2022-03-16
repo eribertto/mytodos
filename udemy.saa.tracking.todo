@@ -1,4 +1,6 @@
 	✔ start Section 8 High availability and scaleability ELB & ASG @done(22-03-14 21:25)
+		✔ Quiz 5: High availability & scalability @done(22-03-16 20:19)
+			✔ Scored 15 of 23 with one 1 question skipped. @done(22-03-16 20:20)
 		✔ High availability and Scalability overview @done(22-03-14 21:26)
 		✔ Elastic load balancing ELB overview @done(22-03-14 21:26)
 		✔ Classic load balancer CLB @done(22-03-14 21:28)
@@ -17,7 +19,6 @@
 		✔ Auto Scaling Group Scaling policies @done(22-03-15 20:28)
 		✔ Hands-on Auto Scaling Group Scaling policies @done(22-03-15 20:28)
 		✔ Auto Scaling Group for Solutions Architect @done(22-03-15 20:28)
-		☐ Quiz 5: High availability & scalability
 	✔ start Section 7 EC2 instance storage @done(22-03-11 10:51)
 	✔ EBS overview @done(22-03-11 17:03)
 	✔ EBS hands on @done(22-03-11 17:03)
