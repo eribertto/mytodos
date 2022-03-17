@@ -2,7 +2,11 @@
 		✔ Amazon RDS overview @done(22-03-16 20:40)
 		✔ RDS read replicas vs Multi AZ @done(22-03-16 20:40)
 		✔ Hands-on Amazon RDS @done(22-03-16 20:40)
-		☐ RDS Encryption and Security
+		✔ RDS Security Encryption @done(22-03-17 19:39)
+		✔ Amazon Aurora overview @done(22-03-17 19:39)
+		✔ Hands-on Aurora @done(22-03-17 19:39)
+		✔ Aurora Advance concepts @done(22-03-17 19:39)
+		☐ Amazon ElastiCache overview
 	✔ start Section 8 High availability and scaleability ELB & ASG @done(22-03-14 21:25)
 		✔ Quiz 5: High availability & scalability @done(22-03-16 20:19)
 			✔ Scored 15 of 23 with one 1 question skipped. @done(22-03-16 20:20)
