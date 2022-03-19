@@ -1,13 +1,13 @@
 	✔ Begin Section 10 Route 53 
 		✔ What is DNS @done(22-03-19 19:05)
-		☐ Route 53 Overview
-		☐ Route 53 Registering a domain
-		☐ Route 53 Creating our first records
-		☐ Route 53 EC2 Setup
-		☐ Route 53 TTL
-		☐ Route 53 CNAME vs Alias
-		☐ Routing Policy Simple
-		☐ Routing Policy Weighted
+		✔ Route 53 Overview @done(22-03-19 20:33)
+		✔ Route 53 Registering a domain @done(22-03-19 20:33)
+		✔ Route 53 Creating our first records @done(22-03-19 20:33)
+		✔ Route 53 EC2 Setup @done(22-03-19 20:33)
+		✔ Route 53 TTL @done(22-03-19 20:33)
+		✔ Route 53 CNAME vs Alias @done(22-03-19 20:33)
+		✔ Routing Policy Simple @done(22-03-19 20:33)
+		✔ Routing Policy Weighted @done(22-03-19 20:33)
 		☐ Routing Policy Latency
 		☐ Route 53 Health Checks
 		☐ Route 53 Hands-on Health Checks
