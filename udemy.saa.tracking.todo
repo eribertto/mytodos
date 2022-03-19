@@ -6,7 +6,17 @@
 		✔ Amazon Aurora overview @done(22-03-17 19:39)
 		✔ Hands-on Aurora @done(22-03-17 19:39)
 		✔ Aurora Advance concepts @done(22-03-17 19:39)
-		☐ Amazon ElastiCache overview
+		✔ Amazon ElastiCache Overview @done(22-03-19 18:43)
+		✔ Hands-on Amazon ElastiCache @done(22-03-19 18:43)
+		✔ ElastiCache for Solutions Architect @done(22-03-19 18:43)
+		✔ List of Ports to be familiar with @done(22-03-19 18:43)
+			important ports vs RDS DB ports
+		✔ (Review first) Take quiz RDS, Aurora & ElastiCache x 21 questions @done(22-03-19 18:43)
+		✔ Scored 19 of 21 @done(22-03-19 18:43)
+
+**Route 53 What is DNS
+todo: Amazon Route 53
+
 	✔ start Section 8 High availability and scaleability ELB & ASG @done(22-03-14 21:25)
 		✔ Quiz 5: High availability & scalability @done(22-03-16 20:19)
 			✔ Scored 15 of 23 with one 1 question skipped. @done(22-03-16 20:20)
