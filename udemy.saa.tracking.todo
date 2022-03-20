@@ -1,4 +1,6 @@
 	✔ Begin Section 10 Route 53 
+		☐ Todo: Route 53 Quiz 7
+			☐ Read up review pdf, epub study guides on the subject
 		✔ What is DNS @done(22-03-19 19:05)
 		✔ Route 53 Overview @done(22-03-19 20:33)
 		✔ Route 53 Registering a domain @done(22-03-19 20:33)
@@ -8,17 +10,16 @@
 		✔ Route 53 CNAME vs Alias @done(22-03-19 20:33)
 		✔ Routing Policy Simple @done(22-03-19 20:33)
 		✔ Routing Policy Weighted @done(22-03-19 20:33)
-		☐ Routing Policy Latency
-		☐ Route 53 Health Checks
-		☐ Route 53 Hands-on Health Checks
-		☐ Routing Policy Failover
-		☐ Routing Policy Geolocation
-		☐ Routing Policy Geoproximity
-		☐ Routing Policy Hands-on Traffic Flow and Geoproximity
-		☐ Routing Policy Multi Value
-		☐ 3rd Party Domains and Route 53
-		☐ Route 53 Section Cleanup
-		☐ Route 53 Quiz 7
+		✔ Routing Policy Latency @done(22-03-20 19:03)
+		✔ Route 53 Health Checks @done(22-03-20 19:03)
+		✔ Route 53 Hands-on Health Checks @done(22-03-20 19:03)
+		✔ Routing Policy Failover @done(22-03-20 19:03)
+		✔ Routing Policy Geolocation @done(22-03-20 19:03)
+		✔ Routing Policy Geoproximity @done(22-03-20 19:03)
+		✔ Routing Policy Hands-on Traffic Flow and Geoproximity @done(22-03-20 19:03)
+		✔ Routing Policy Multi Value @done(22-03-20 19:03)
+		✔ 3rd Party Domains and Route 53 @done(22-03-20 19:03)
+		✔ Route 53 Section Cleanup @done(22-03-20 19:03)
 	✔ start Section 9 AWS Fundamentals RDS+Aurora+ElastiCache @done(22-03-16 20:21)
 		✔ Amazon RDS overview @done(22-03-16 20:40)
 		✔ RDS read replicas vs Multi AZ @done(22-03-16 20:40)
