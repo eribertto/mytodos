@@ -1,3 +1,39 @@
+
+
+
+
+
+--
+## create your own github version of ALIS
+create desktop folder named AA; cd to this folder then
+git clone the picoalis github url in this folder
+rename it to the official name official-alis (for some comparison in the future)
+you dont change anything in this folder
+create a repo in github named mygh-alis (or equal)
+git clone this inside the AA folder
+copy the whole content of the folder alis to the 
+
+NOTE: error cloning my created repo in local box as per below:
+Cloning into 'myGH-alis'...
+Username for 'https://github.com': eribertto
+Password for 'https://eribertto@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/eribertto/myGH-alis.git/'
+
+workaround:
+followed this link https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+
+success cloning with the CLI? yes # provide username, for password use the token below
+
+token for 60 days expiration:
+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
+
+
+
+
+
+--
 March 20, 2022
 Install arcolinux arcolinuxl-v22.03.08-x86_64.iso in Thinkpad E590
 This will overwrite the OS Manjaro Linux in partition 
