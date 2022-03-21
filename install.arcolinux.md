@@ -13,6 +13,13 @@ Note: Manjaro hanged while checking the partition details! Had to do a hard rebo
 Begin time: 1950
 End time: 1958
 
-Success installing the archlinux XFCE and do some tweakings. Also success building carli iso from eriks YT tutorial.
+Success installing the archlinux XFCE and do some tweakings. Also success building carli iso from eriks YT tutorial and booting to the build live usb. Note however that no network manager in the applet nor no gui web browser.
 
-After testing out the live iso i can reboot just fine to 2 OS mxlinux and arcolinux XFCE.
+below is the reply of Erik arcolinux dev:
+	Erik Dubois
+	add any package from the Arch Linux repos to the list packages.x86_64
+	neofetch is explained - carli project
+
+
+
+After testing out the live iso i can reboot just fine to the 2 OS mxlinux and arcolinux XFCE.
