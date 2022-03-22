@@ -26,12 +26,6 @@ followed this link https://stackoverflow.com/questions/68775869/support-for-pass
 
 success cloning with the CLI? yes # provide username, for password use the token below
 
-token for 60 days expiration:
-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
-
-
-new token (valid for 30 days but why is the first token gone?)
-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
 
 
 --
