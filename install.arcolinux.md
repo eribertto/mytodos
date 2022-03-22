@@ -27,6 +27,13 @@ followed this link https://stackoverflow.com/questions/68775869/support-for-pass
 success cloning with the CLI? yes # provide username, for password use the token below
 
 
+See below message from GH re token
+
+Your OAuth, GitHub App or personal access token has been revoked
+ 
+A recent scan found a valid OAuth, GitHub App or personal access token linked to your GitHub account in the content of this commit to eribertto/mytodos. We have revoked the key to protect your data from unauthorized access, and as a consequence, any app using this token won’t be able to authenticate to GitHub.
+
+token copy now moved to standardnote web UI.
 
 --
 March 20, 2022
