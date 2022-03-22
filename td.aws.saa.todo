@@ -1,4 +1,11 @@
-	☐ todo: next session resume to Section 14: Application Integration
+	✔ Resume to Section 14: Application Integration @done(22-03-22 19:12)
+		✔ Application Integration Overview @done(22-03-22 19:12)
+		✔ Amazon SQS Overview @done(22-03-22 19:22)
+		✔ Amazon SNS Overview @done(22-03-22 19:23)
+		✔ Take section quiz @done(22-03-22 19:34)
+			✔ Pass after try 2. @done(22-03-22 19:38)
+			
+
 	✔ begin Section 13 Amazon DynamoDB @done(22-03-18 19:01)
 		✔ Overview Amazon DynamoDB @done(22-03-18 19:01)
 		✔ DynamoDB Core Components @done(22-03-18 19:16)
