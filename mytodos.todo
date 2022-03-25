@@ -1,5 +1,6 @@
 
 my notes March 25-April 15
+	✔ Bash reference guide for Fedora https://fedoramagazine.org/customizing-bash/ @done(22-03-25 21:39)
 	✔ NOTE: Pop-OS had kernel panic after updating for so long. Guess its time for a new OS @done(22-03-25 08:19)
 		✔ Pop_OS partition in use is /dev/sda as seen in grub menu @done(22-03-25 09:18)
 		✔ todo: target OS to try is Fedora 36 latest beta @done(22-03-25 09:18)
