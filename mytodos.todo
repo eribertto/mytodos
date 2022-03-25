@@ -1,6 +1,8 @@
 
 my notes March 25-April 15
 	✔ NOTE: Pop-OS had kernel panic after updating for so long. Guess its time for a new OS @done(22-03-25 08:19)
+		✔ Pop_OS partition in use is /dev/sda as seen in grub menu @done(22-03-25 09:18)
+		✔ todo: target OS to try is Fedora 36 latest beta @done(22-03-25 09:18)
 
 	✔ link to install cron in Arch linux and arch derivatives @done(22-03-07 21:36)
 		https://wiki.archlinux.org/title/Cron#Installation
