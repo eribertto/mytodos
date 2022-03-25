@@ -3,7 +3,18 @@
 		✔ S3 Buckets and Objects @done(22-03-24 22:27)
 		✔ Hands-on S3 Buckets and Objects @done(22-03-24 22:35)
 		✔ S3 versioning @done(22-03-24 22:35)
-		☐ Hands-on S3 versioning
+		✔ Hands-on S3 versioning @done(22-03-25 17:34)
+		✔ S3 Encryption @done(22-03-25 17:45)
+		✔ Hands-on S3 Encryption @done(22-03-25 17:45)
+		☐ S3 Security and Bucket Policies
+		☐ Hands-on S3 Security and Bucket Policies
+		☐ S3 Websites
+		☐ S3 Cors
+		☐ Hands-on S3 Cors
+		☐ S3 Consistency Models
+		☐ Quiz 9 Amazon S3
+
+
 	✔ Section 11 Classic Solutions Architecture Discussions @done(22-03-22 21:12)
 		✔ whatisthetime.com @done(22-03-22 21:26)
 		✔ MyClothes.com @done(22-03-23 20:10)
