@@ -1,5 +1,7 @@
 
 my notes March 25-April 15
+	✔ Solve the guake F12 issue by following this link creating a custom shortcut key (note this prob is known in gnome using wayland) @done(22-03-27 19:21)
+		https://askubuntu.com/questions/1331707/f12-acting-weird-in-21-04-can-no-longer-toggle-guake
 	☐ todo: send 5k to CTB re spending allowance trip to manila
 	✔ Installed starship prompt in Bash Fedora https://github.com/starship/starship @done(22-03-25 22:29)
 	✔ Bash reference guide for Fedora https://fedoramagazine.org/customizing-bash/ @done(22-03-25 21:39)
