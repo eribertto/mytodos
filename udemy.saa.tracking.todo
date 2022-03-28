@@ -1,3 +1,12 @@
+	✔ Start Section 15 CloudFront and AWS Global Accelerator DAX @done(22-03-28 20:05)
+		CloudFront overview
+		Hands-on CloudFront with S3
+		CloudFront Signed URLs and cookies
+		CloudFront Advanced Concepts
+		AWS Global Accelerator overview
+		Hands-on AWS Global Accelerator
+		Quiz: CloudFront and Global Accelerator 
+
 	✔ Start Section 19 Serverless Overview from a Solution Architect perspective @done(22-03-27 17:21)
 		✔ Serverless introduction @done(22-03-27 17:21)
 		✔ Lambda Overview @done(22-03-27 17:24)
