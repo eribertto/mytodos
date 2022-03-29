@@ -1,3 +1,10 @@
+	✔ Begin Section 18: Comparison of AWS Services (Versus Section) @done(22-03-29 18:42)
+		☐ High Availability vs Fault Tolerance
+		☐ RTO vs RPO
+		☐ Security Group vs Network ACL
+		☐ File vs Volume vs Tape Storage Gateway
+		☐ Storage GAteway vs DataSync
+		☐ Amazon S3 vs EBS vs EFS
 	✔ Begin Section 17: Amazon CloudFront @done(22-03-28 19:16)
 		✔ CloudFront overview @done(22-03-28 20:03)
 		✔ Cloudfront Security Features @done(22-03-28 20:03)
