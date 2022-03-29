@@ -1,5 +1,7 @@
 
 my notes March 25-April 15
+	✔ Set java environment to a different version using archlinux-java command: @done(22-03-29 11:56)
+		https://www.tecmint.com/install-java-on-arch-linux/
 	✔ Install system updates in Garuda box today @done(22-03-29 05:43)
 	✔ Install in Gnome 42 the Pop-shell tiling extension https://github.com/pop-os/shell @done(22-03-28 18:41)
 	✔ Solve the guake F12 issue by following this link creating a custom shortcut key (note this prob is known in gnome using wayland) @done(22-03-27 19:21)
