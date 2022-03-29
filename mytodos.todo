@@ -1,5 +1,6 @@
 
 my notes March 25-April 15
+	✔ Install system updates in Garuda box today @done(22-03-29 05:43)
 	✔ Install in Gnome 42 the Pop-shell tiling extension https://github.com/pop-os/shell @done(22-03-28 18:41)
 	✔ Solve the guake F12 issue by following this link creating a custom shortcut key (note this prob is known in gnome using wayland) @done(22-03-27 19:21)
 		https://askubuntu.com/questions/1331707/f12-acting-weird-in-21-04-can-no-longer-toggle-guake
