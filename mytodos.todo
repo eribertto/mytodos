@@ -1,5 +1,11 @@
 
 my notes March 25-April 15
+	✔ Downgrade to java version 11 in Fedora and set it as the new default (was java 17) 
+		https://itsfoss.com/install-java-fedora/ @done(22-03-30 15:52)
+		✔ install freeplane using flatpak https://flathub.org/apps/details/org.freeplane.App @done(22-03-30 16:17)
+			✔ Note: the version is 1.8.11 @done(22-03-30 16:18)
+			✔ (NA) install latest Freeplane after finishing the java install. @done(22-03-30 16:18)
+
 	✔ Set java environment to a different version using archlinux-java command: @done(22-03-29 11:56)
 		https://www.tecmint.com/install-java-on-arch-linux/
 	✔ Install system updates in Garuda box today @done(22-03-29 05:43)
