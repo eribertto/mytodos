@@ -1,3 +1,15 @@
+	✔ Start Section 16 AWS Storage Extras @done(22-03-30 19:44)
+		☐ AWS Snow Family overview
+		☐ AWS Snow Family Hands-on
+		☐ Architecture: Snowball into Glacier
+		☐ Amazon FSx overview
+		☐ Amazon FSx Hands-on
+		☐ Storage Gateway overview
+		☐ Amazon FSx File Gateway
+		☐ Storage Gateway Hands-on
+		☐ AWS Transfer Family
+		☐ All AWS Storage Options Compared
+		☐ Quiz: AWS Storage Extras
 	✔ Start Section 15 CloudFront and AWS Global Accelerator DAX @done(22-03-28 20:05)
 		✔ CloudFront overview @done(22-03-28 21:01)
 		✔ Hands-on CloudFront with S3 @done(22-03-28 21:01)
