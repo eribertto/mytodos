@@ -1,3 +1,25 @@
+
+✔ Section 17: Decoupling Applications SQS, SNS, Kinesis, Active MQ @done(22-03-31 11:23)
+ ☐ Introduction to Messaging
+ ☐ Amazon SQS Standard Queues overview
+ ☐ SQS Standard Queue Hands-on
+ ☐ SQS Queue Access policy
+ ☐ SQS Message Visibility Timeout
+ ☐ SQS Dead Letter Queues
+ ☐ SQS Delay Queues
+ ☐ SQS Long Polling
+ ☐ SQS Request Response
+ ☐ SQS FIFO Queues
+ ☐ SQS + Auto Scaling Group
+ ☐ Amazon SNS overview
+
+✔ Section 13: AWS SDK, IAM roles and policies @done(22-03-31 11:23)
+ ✔ IAM Roles and Policies hands-on @done(22-03-31 11:22)
+ ✔ AWS Policy Simulator @done(22-03-31 11:22)
+ ✔ AWS EC2 Instance Metadata @done(22-03-31 11:22)
+ ✔ AWS SDK overview @done(22-03-31 11:22)
+ ✔ QUIZ: scored 2 of 3 questions @done(22-03-31 11:22)
+
 	✔ Start Section 16 AWS Storage Extras @done(22-03-30 19:44)
 		✔ AWS Snow Family overview @done(22-03-30 21:29)
 		✔ AWS Snow Family Hands-on @done(22-03-30 21:29)
