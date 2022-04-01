@@ -2,16 +2,16 @@
 ✔ Section 17: Decoupling Applications SQS, SNS, Kinesis, Active MQ @done(22-03-31 11:23)
  ✔ Introduction to Messaging @done(22-03-31 11:31)
  ✔ Amazon SQS Standard Queues overview @done(22-03-31 11:31)
- ☐ SQS Standard Queue Hands-on
- ☐ SQS Queue Access policy
- ☐ SQS Message Visibility Timeout
- ☐ SQS Dead Letter Queues
- ☐ SQS Delay Queues
- ☐ SQS Long Polling
- ☐ SQS Request Response
- ☐ SQS FIFO Queues
- ☐ SQS + Auto Scaling Group
- ☐ Amazon SNS overview
+ ✔ SQS Standard Queue Hands-on @done(22-04-01 08:25)
+ ✔ SQS Queue Access policy @done(22-04-01 08:25)
+ ✔ SQS Message Visibility Timeout @done(22-04-01 08:25)
+ ✔ SQS Dead Letter Queues @done(22-04-01 08:25)
+ ✔ SQS Delay Queues @done(22-04-01 08:25)
+ ✔ SQS Long Polling @done(22-04-01 08:25)
+ ✔ SQS Request Response @done(22-04-01 08:25)
+ ✔ SQS FIFO Queues @done(22-04-01 08:25)
+ ✔ SQS + Auto Scaling Group @done(22-04-01 08:25)
+ ✔ Amazon SNS overview @done(22-04-01 08:25)
 
 ✔ Section 13: AWS SDK, IAM roles and policies @done(22-03-31 11:23)
  ✔ IAM Roles and Policies hands-on @done(22-03-31 11:22)
