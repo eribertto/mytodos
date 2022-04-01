@@ -19,7 +19,8 @@
  ✔ Data Ordering for Kinesis vs SQS Fifo @done(22-04-01 11:45)
  ✔ SQS vs SNS vs Kinesis @done(22-04-01 11:45)
  ✔ Amazon MQ @done(22-04-01 11:45)
- ☐ Quiz: Messaging & Integration
+ ✔ Review pdf guide related to topic @done(22-04-01 11:46)
+	☐ Quiz: Messaging & Integration
 
 ✔ Section 13: AWS SDK, IAM roles and policies @done(22-03-31 11:23)
  ✔ IAM Roles and Policies hands-on @done(22-03-31 11:22)
