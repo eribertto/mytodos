@@ -20,7 +20,8 @@
  ✔ SQS vs SNS vs Kinesis @done(22-04-01 11:45)
  ✔ Amazon MQ @done(22-04-01 11:45)
  ✔ Review pdf guide related to topic @done(22-04-01 11:46)
-	☐ Quiz: Messaging & Integration
+	✔ Quiz: Messaging & Integration @done(22-04-01 21:15)
+		✔ Scored 10 of 13 @done(22-04-01 21:15)
 
 ✔ Section 13: AWS SDK, IAM roles and policies @done(22-03-31 11:23)
  ✔ IAM Roles and Policies hands-on @done(22-03-31 11:22)
