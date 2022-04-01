@@ -1,7 +1,7 @@
 
 ✔ Section 17: Decoupling Applications SQS, SNS, Kinesis, Active MQ @done(22-03-31 11:23)
- ☐ Introduction to Messaging
- ☐ Amazon SQS Standard Queues overview
+ ✔ Introduction to Messaging @done(22-03-31 11:31)
+ ✔ Amazon SQS Standard Queues overview @done(22-03-31 11:31)
  ☐ SQS Standard Queue Hands-on
  ☐ SQS Queue Access policy
  ☐ SQS Message Visibility Timeout
