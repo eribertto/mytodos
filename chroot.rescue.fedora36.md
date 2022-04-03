@@ -7,6 +7,24 @@
 # https://docs.fedoraproject.org/en-US/fedora/f35/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/#sec-Terminal_Menu_Editing_During_Boot
 
 
+
+
+## note the partition of Fedora 36 beta
+## from fdisk
+Device       Start       End   Sectors   Size Type
+/dev/sda1     2048   1230847   1228800   600M EFI System
+/dev/sda2  1230848   3327999   2097152     1G Linux filesystem
+/dev/sda3  3328000 976773119 973445120 464.2G Linux filesystem
+
+# from blkid
+/dev/sda1: UUID="7A77-3B2E" BLOCK_SIZE="512" TYPE="vfat" PARTLABEL="EFI System Partition" PARTUUID="14778b6d-606c-4a0b-928a-510e5e8a2308"
+/dev/sda2: UUID="53b30b19-4377-4470-bcc7-59bda3201738" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="739e8bba-6494-4fe2-a6f3-4d66aab290e6"
+/dev/sda3: LABEL="fedora_localhost-live" UUID="2be0ff8a-46c3-486e-ae2b-589988bd04a2" UUID_SUB="30c58cf3-bafa-4abb-aa6d-d996a8d2a51e" BLOCK_SIZE="4096" TYPE="btrfs" PARTUUID="8f8ea419-d46c-446a-8f01-5a9983e75ca9"
+
+
+
+
+
 take note of the reply in subreddit r/Fedora
 You just need to re-run sudo grub-mkconfig -o /boot/grub/grub.cfg after you've mounted and chrooted back into the system. Note: /boot/ is wherever your boot partition is mounted. It may not be the same directory.
 
