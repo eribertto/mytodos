@@ -2,6 +2,20 @@
 ✔ Begin Section 22 AWS Monitoring @done(22-04-03 19:15)
 	✔ Introduction @done(22-04-03 19:15)
 	✔ Cloudwatch metrics @done(22-04-03 19:20)
+	✔ Cloudwatch custom metrics @done(22-04-04 20:00)
+	✔ Cloudwatch dashboards @done(22-04-04 20:00)
+	✔ Cloudwatch logs @done(22-04-04 20:00)
+	✔ Cloudwatch logs Hands-on @done(22-04-04 20:00)
+	✔ Cloudwatch agent & cloudwatch log agent @done(22-04-04 20:00)
+	✔ Cloudwatch alarm @done(22-04-04 20:00)
+	✔ Cloudwatch alarm hands-on @done(22-04-04 20:00)
+	✔ EC2 Instance recovery with Cloudwatch Alarms @done(22-04-04 20:00)
+	✔ AWS Cloudwatch Events @done(22-04-04 20:00)
+	todos:
+	EventBridge overview
+	EventBridge hands-on
+	CloudTrail overview
+	CloudTrail Hands-on
 ✔ Begin Section 21 AWS Databases @done(22-04-03 17:37)
 	✔ Choosing the right databases @done(22-04-03 17:36)
 	✔ RDS @done(22-04-03 17:36)
