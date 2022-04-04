@@ -11,11 +11,16 @@
 	✔ Cloudwatch alarm hands-on @done(22-04-04 20:00)
 	✔ EC2 Instance recovery with Cloudwatch Alarms @done(22-04-04 20:00)
 	✔ AWS Cloudwatch Events @done(22-04-04 20:00)
-	todos:
-	EventBridge overview
-	EventBridge hands-on
-	CloudTrail overview
-	CloudTrail Hands-on
+	✔ EventBridge overview @done(22-04-04 20:11)
+	✔ EventBridge hands-on @done(22-04-04 20:11)
+	✔ CloudTrail overview @done(22-04-04 20:27)
+	✔ CloudTrail Hands-on @done(22-04-04 20:27)
+	✔ AWS Config overview @done(22-04-04 20:45)
+	✔ AWS Config hands-on @done(22-04-04 20:45)
+	✔ CloudWatch vs CloudTrail vs Config @done(22-04-04 20:45)
+	Todos:
+		Review the section pdf guides
+		Take quiz 19 Monitoring and Auditing
 ✔ Begin Section 21 AWS Databases @done(22-04-03 17:37)
 	✔ Choosing the right databases @done(22-04-03 17:36)
 	✔ RDS @done(22-04-03 17:36)
