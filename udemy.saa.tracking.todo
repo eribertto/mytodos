@@ -3,10 +3,15 @@
 	✔ Security Token Service overview @done(22-04-06 16:50)
 	✔ Identity Federation and Cognito @done(22-04-06 16:50)
 	✔ Directories Services overview @done(22-04-06 16:50)
-	Organizations overview
-	Organizations Hands-on
-	IAM advanced
-	IAM Policy Evaluation logic
+	✔ Organizations overview @done(22-04-06 20:39)
+	✔ Organizations Hands-on @done(22-04-06 20:39)
+	✔ IAM advanced @done(22-04-06 20:39)
+	✔ IAM Policy Evaluation logic @done(22-04-06 20:39)
+	✔ Resource Access Manager RAM @done(22-04-06 20:39)
+	✔ AWS Single Sign on SSO overview @done(22-04-06 20:39)
+	✔ AWS Single Sign on SSO hands-on @done(22-04-06 20:39)
+	✔ IAM Advanced quiz @done(22-04-06 20:39)
+		take quiz scored 6 of 8
 
 ✔ Begin Section 22 AWS Monitoring @done(22-04-03 19:15)
 	✔ Introduction @done(22-04-03 19:15)
