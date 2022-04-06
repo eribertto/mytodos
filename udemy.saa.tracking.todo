@@ -1,4 +1,13 @@
 
+✔ Begin Section 23 IAM AWS Identity and Access Management @done(22-04-06 16:30)
+	Security Token Service overview
+	Identity Federation and Cognito
+	Directories Services overview
+	Organizations overview
+	Organizations Hands-on
+	IAM advanced
+	IAM Policy Evaluation logic
+
 ✔ Begin Section 22 AWS Monitoring @done(22-04-03 19:15)
 	✔ Introduction @done(22-04-03 19:15)
 	✔ Cloudwatch metrics @done(22-04-03 19:20)
