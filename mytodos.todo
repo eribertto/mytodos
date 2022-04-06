@@ -1,5 +1,9 @@
 
 my notes March 25-April 15
+	✔ Today installed Deepin OS 20.5 over FreeBsd in TP460 laptop, done!!! @done(22-04-06 19:00)
+		partition used is /dev/sda
+		user eribertto
+		passwd MKO 00 987 ytr
 	✔ Note the logout script in Gnome @done(22-04-01 13:54)
 		https://ask.fedoraproject.org/t/keyboard-shortcut-to-log-out/1540/2
 	✔ Downgrade to java version 11 in Fedora and set it as the new default (was java 17) 
