@@ -1,8 +1,8 @@
 
 ✔ Begin Section 23 IAM AWS Identity and Access Management @done(22-04-06 16:30)
-	Security Token Service overview
-	Identity Federation and Cognito
-	Directories Services overview
+	✔ Security Token Service overview @done(22-04-06 16:50)
+	✔ Identity Federation and Cognito @done(22-04-06 16:50)
+	✔ Directories Services overview @done(22-04-06 16:50)
 	Organizations overview
 	Organizations Hands-on
 	IAM advanced
