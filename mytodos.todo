@@ -9,9 +9,10 @@ passaw BB dotdot midi ninenine
 success!!!
 
 modules in this learning plan
-☐ 1) introduction to AWS billing and cost mgmt 6 min
-☐ 2) aws shared responsibility model 5 min
+✔ 1) introduction to AWS billing and cost mgmt 6 min @done(22-04-08 12:18)
+✔ 2) aws shared responsibility model 5 min @done(22-04-08 12:18)
 ☐ 3) aws well architected 1.5 hours
+		☐ resume to AWS Well-Architected: Module 3 - Security Pillar
 ☐ 4) architecting serverless solutions 3 hours
 ☐ 5) exam readiness AWS certified solutions architect associate digital
 ☐ 6) exam readiness AWS certified solutions architect professional digital
