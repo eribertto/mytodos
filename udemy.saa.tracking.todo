@@ -1,8 +1,16 @@
 
 ✔ Begin Section 24 AWS Security and Encryption @done(22-04-09 05:50)
 	✔ AWS Security introduction @done(22-04-09 05:51)
-	☐ Encryption 101
-	☐ KMS overview
+	✔ Encryption 101 @done(22-04-09 19:12)
+	✔ KMS overview @done(22-04-09 19:12)
+	✔ KMS hands-on in CLI @done(22-04-09 19:13)
+	✔ KMS key rotation @done(22-04-09 19:13)
+	✔ SSM Parameter Store overview @done(22-04-09 19:13)
+	✔ SSM Parameter Store hands-on @done(22-04-09 19:13)
+	✔ SSM Parameter Store hands-on (AWS Lambda) @done(22-04-09 19:13)
+	✔ AWS Secrets Manager overview @done(22-04-09 19:13)
+	✔ AWS Secrets Manager hands-on @done(22-04-09 19:13)
+	☐ todo: CloudHSM
 ✔ Begin Section 23 IAM AWS Identity and Access Management @done(22-04-06 16:30)
 	✔ Security Token Service overview @done(22-04-06 16:50)
 	✔ Identity Federation and Cognito @done(22-04-06 16:50)
