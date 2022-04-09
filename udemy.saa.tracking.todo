@@ -1,4 +1,8 @@
 
+✔ Begin Section 24 AWS Security and Encryption @done(22-04-09 05:50)
+	✔ AWS Security introduction @done(22-04-09 05:51)
+	☐ Encryption 101
+	☐ KMS overview
 ✔ Begin Section 23 IAM AWS Identity and Access Management @done(22-04-06 16:30)
 	✔ Security Token Service overview @done(22-04-06 16:50)
 	✔ Identity Federation and Cognito @done(22-04-06 16:50)
