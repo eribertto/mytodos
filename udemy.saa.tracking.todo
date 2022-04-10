@@ -1,12 +1,12 @@
 
 ✔ Begin Section 25 Networking VPC @done(22-04-10 20:40)
-	☐ Section introduction
-	☐ CIDR, Public vs Private IP
-	☐ Default VPC overview
-	☐ VPC overview
-	☐ VPC Hands-on
-	☐ Subnet overview
-	☐ Subnet Hands-on
+	✔ Section introduction @done(22-04-10 21:05)
+	✔ CIDR, Public vs Private IP @done(22-04-10 21:05)
+	✔ Default VPC overview @done(22-04-10 21:05)
+	✔ VPC overview @done(22-04-10 21:05)
+	✔ VPC Hands-on @done(22-04-10 21:05)
+	✔ Subnet overview @done(22-04-10 21:05)
+	✔ Subnet Hands-on @done(22-04-10 21:05)
 	☐ Internet gateways and route tables
 	☐ Hands-on Internet gateways and route tables
 	☐ Bastion hosts
