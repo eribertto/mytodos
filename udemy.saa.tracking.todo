@@ -1,4 +1,16 @@
 
+✔ Begin Section 25 Networking VPC @done(22-04-10 20:40)
+	☐ Section introduction
+	☐ CIDR, Public vs Private IP
+	☐ Default VPC overview
+	☐ VPC overview
+	☐ VPC Hands-on
+	☐ Subnet overview
+	☐ Subnet Hands-on
+	☐ Internet gateways and route tables
+	☐ Hands-on Internet gateways and route tables
+	☐ Bastion hosts
+
 ✔ Begin Section 24 AWS Security and Encryption @done(22-04-09 05:50)
 	✔ AWS Security introduction @done(22-04-09 05:51)
 	✔ Encryption 101 @done(22-04-09 19:12)
