@@ -7,9 +7,16 @@
 	✔ VPC Hands-on @done(22-04-10 21:05)
 	✔ Subnet overview @done(22-04-10 21:05)
 	✔ Subnet Hands-on @done(22-04-10 21:05)
-	☐ Internet gateways and route tables
-	☐ Hands-on Internet gateways and route tables
-	☐ Bastion hosts
+	✔ Internet gateways and route tables @done(22-04-11 19:24)
+	✔ Hands-on Internet gateways and route tables @done(22-04-11 19:24)
+	✔ Bastion hosts @done(22-04-11 19:24)
+	✔ Bastion Hosts hands-on @done(22-04-11 19:24)
+	✔ NAT instances @done(22-04-11 19:24)
+	✔ NAT instances hands-on @done(22-04-11 19:24)
+	✔ NAT Gateways @done(22-04-11 19:24)
+	✔ NAT Gateways Hands-on @done(22-04-11 19:24)
+	✔ DNS Resolution Options and Route 53 Private zones @done(22-04-11 19:24)
+	✔ Hands-on DNS Resolution Options and Route 53 Private zones @done(22-04-11 19:24)
 
 ✔ Begin Section 24 AWS Security and Encryption @done(22-04-09 05:50)
 	✔ AWS Security introduction @done(22-04-09 05:51)
