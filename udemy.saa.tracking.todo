@@ -1,7 +1,7 @@
 
 ✔ Begin Section 25 Networking VPC @done(22-04-10 20:40)
 	☐ VPC quiz (22 questions)
-	☐ Networking Costs in AWS
+	✔ Networking Costs in AWS @done(22-04-12 21:38)
 	✔ Site to site VPN & Customer Gateway @done(22-04-12 19:18)
 	✔ Hands-on Site to site VPN & Customer Gateway @done(22-04-12 19:18)
 	✔ Direct Connect & Direct Connect Gateway @done(22-04-12 19:18)
