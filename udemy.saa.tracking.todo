@@ -1,6 +1,7 @@
 
 ✔ Begin Section 26 Disaster Recovery & Migrations @done(22-04-14 23:15)
-	Disaster Recovery in AWS
+	✔ Disaster Recovery in AWS @done(22-04-14 23:29)
+		✔ Downloaded the Disaster recovery pdf guide @done(22-04-14 23:29)
 	Database Migration Service DMS
 	Hands-on Database Migration Service DMS
 	On-Premises Strategies with AWS
