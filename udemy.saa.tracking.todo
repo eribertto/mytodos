@@ -1,4 +1,15 @@
 
+✔ Begin Section 26 Disaster Recovery & Migrations @done(22-04-14 23:15)
+	Disaster Recovery in AWS
+	Database Migration Service DMS
+	Hands-on Database Migration Service DMS
+	On-Premises Strategies with AWS
+	DataSync overview
+	Transferring Large Datasets into AWS
+	AWS Backup
+	Hands-on AWS Backup
+	Quiz Disaster Recovery
+
 ✔ Begin Section 25 Networking VPC @done(22-04-10 20:40)
 	✔ VPC quiz (22 questions) @done(22-04-13 21:58)
 		✔ First try scored 13 of 22 @done(22-04-13 21:59)
