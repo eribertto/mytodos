@@ -2,13 +2,13 @@
 ✔ Begin Section 26 Disaster Recovery & Migrations @done(22-04-14 23:15)
 	✔ Disaster Recovery in AWS @done(22-04-14 23:29)
 		✔ Downloaded the Disaster recovery pdf guide @done(22-04-14 23:29)
-	Database Migration Service DMS
-	Hands-on Database Migration Service DMS
-	On-Premises Strategies with AWS
-	DataSync overview
-	Transferring Large Datasets into AWS
-	AWS Backup
-	Hands-on AWS Backup
+	✔ Database Migration Service DMS @done(22-04-15 13:19)
+	✔ Hands-on Database Migration Service DMS @done(22-04-15 13:25)
+	✔ On-Premises Strategies with AWS @done(22-04-15 13:25)
+	✔ DataSync overview @done(22-04-15 13:40)
+	✔ Transferring Large Datasets into AWS @done(22-04-15 13:40)
+	✔ AWS Backup @done(22-04-15 13:40)
+	✔ Hands-on AWS Backup @done(22-04-15 13:40)
 	Quiz Disaster Recovery
 
 ✔ Begin Section 25 Networking VPC @done(22-04-10 20:40)
