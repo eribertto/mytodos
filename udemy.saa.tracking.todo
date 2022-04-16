@@ -1,4 +1,10 @@
 
+✔ Begin Section 27 More Solution Architectures @done(22-04-16 18:41)
+	✔ Event Processing in AWS @done(22-04-16 18:41)
+	✔ Caching Strategies in AWS @done(22-04-16 18:41)
+	✔ Blocking an IP in AWS @done(22-04-16 18:41)
+	✔ High Performance Computing HPC in AWS @done(22-04-16 18:41)
+	☐ EC2 Instance High Availability
 ✔ Begin Section 26 Disaster Recovery & Migrations @done(22-04-14 23:15)
 	✔ Disaster Recovery in AWS @done(22-04-14 23:29)
 		✔ Downloaded the Disaster recovery pdf guide @done(22-04-14 23:29)
@@ -9,7 +15,8 @@
 	✔ Transferring Large Datasets into AWS @done(22-04-15 13:40)
 	✔ AWS Backup @done(22-04-15 13:40)
 	✔ Hands-on AWS Backup @done(22-04-15 13:40)
-	Quiz Disaster Recovery
+	✔ Quiz Disaster Recovery @done(22-04-16 18:40)
+		✔ Scored 5 of 8 first try @done(22-04-16 18:40)
 
 ✔ Begin Section 25 Networking VPC @done(22-04-10 20:40)
 	✔ VPC quiz (22 questions) @done(22-04-13 21:58)
