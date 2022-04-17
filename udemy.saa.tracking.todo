@@ -5,6 +5,8 @@
 	✔ Blocking an IP in AWS @done(22-04-16 18:41)
 	✔ High Performance Computing HPC in AWS @done(22-04-16 18:41)
 	☐ EC2 Instance High Availability
+	☐ Bastion Host High Availability
+	☐ Section Quiz
 ✔ Begin Section 26 Disaster Recovery & Migrations @done(22-04-14 23:15)
 	✔ Disaster Recovery in AWS @done(22-04-14 23:29)
 		✔ Downloaded the Disaster recovery pdf guide @done(22-04-14 23:29)
