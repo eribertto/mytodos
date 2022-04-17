@@ -1,4 +1,18 @@
 
+✔ Begin Section 28 Other Services @done(22-04-17 17:14)
+	CICD introduction
+	CloudFormation introduction
+	CloudFormation Hands-on
+	CloudFormation extras
+	Step Functions and SWF
+	EMR
+	OpsWorks
+	AWS Workspaces
+	AppSync
+	Cost Explorer
+	Other Services cheat sheet
+	Section quiz
+
 ✔ Begin Section 27 More Solution Architectures @done(22-04-16 18:41)
 	✔ Event Processing in AWS @done(22-04-16 18:41)
 	✔ Caching Strategies in AWS @done(22-04-16 18:41)
