@@ -1,8 +1,8 @@
 
 ✔ Begin Section 30 Preparing for the Exam + Practice Exam @done(22-04-17 20:15)
-	State of Learning Checkpoint
-	Exam Tips AWS SAA-C02
-	Links to Whitepapers
+	✔ State of Learning Checkpoint @done(22-04-17 20:39)
+	✔ Exam Tips AWS SAA-C02 @done(22-04-17 20:39)
+	✔ Links to Whitepapers @done(22-04-17 20:39)
 		1. Architecting for the cloud: https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf (Archived)
 
 		2. Whitepapers related to well-architected framework are mentioned here: https://aws.amazon.com/blogs/aws/aws-well-architected-framework-updated-white-papers-tools-and-best-practices/
@@ -11,10 +11,11 @@
 
 		AWS now recommends a well-architected framework whitepaper: https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf
 
-
-	Exam Walkthrough and Signup
-	Save 50% on your AWS Exam Cost
-	Get extra 30 minutes on your AWS exam
+	✔ Exam Walkthrough and Signup @done(22-04-17 20:39)
+	✔ Save 50% on your AWS Exam Cost @done(22-04-17 20:39)
+	✔ Get extra 30 minutes on your AWS exam @done(22-04-17 20:39)
+	☐ Practice TEst 1 AWS SAA-C02
+		Note: this is 2 hours 10 minutes test
 ✔ Begin Section 29 Whitepapers and Architectures AWS SAA @done(22-04-17 18:18)
 	✔ Whitepaper section introduction @done(22-04-17 18:19)
 	✔ AWS Well-Architected Framework & Well Architected Tool @done(22-04-17 20:01)
