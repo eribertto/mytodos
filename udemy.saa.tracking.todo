@@ -4,9 +4,11 @@
 	✔ Caching Strategies in AWS @done(22-04-16 18:41)
 	✔ Blocking an IP in AWS @done(22-04-16 18:41)
 	✔ High Performance Computing HPC in AWS @done(22-04-16 18:41)
-	☐ EC2 Instance High Availability
-	☐ Bastion Host High Availability
-	☐ Section Quiz
+	✔ EC2 Instance High Availability @done(22-04-17 17:12)
+	✔ Bastion Host High Availability @done(22-04-17 17:12)
+	✔ Section Quiz @done(22-04-17 17:12)
+		✔ Try 1 scored 2 of 4 @done(22-04-17 17:12)
+		✔ Try 2 scored 4 of 4 @done(22-04-17 17:13)
 ✔ Begin Section 26 Disaster Recovery & Migrations @done(22-04-14 23:15)
 	✔ Disaster Recovery in AWS @done(22-04-14 23:29)
 		✔ Downloaded the Disaster recovery pdf guide @done(22-04-14 23:29)
