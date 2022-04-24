@@ -1,5 +1,22 @@
 
-☐ Todo: Resume Section 14 Advanced Amazon S3 & Athena
+✔ Todo: Resume Section 14 Advanced Amazon S3 & Athena @done(22-04-24 19:44)
+	✔ S3 MFA delete @done(22-04-24 20:33)
+	✔ S3 MFA delete hands-on @done(22-04-24 20:33)
+	✔ S3 Default Encryption @done(22-04-24 20:33)
+	✔ S3 Access Logs @done(22-04-24 20:33)
+	✔ S3 Access Logs Hands-on @done(22-04-24 20:33)
+	✔ S3 Replication e.g cross-region, same region @done(22-04-24 20:33)
+	✔ S3 Replication Hands-on @done(22-04-24 20:33)
+	✔ S3 Presigned URLs @done(22-04-24 20:33)
+	✔ S3 Presigned URLs hands-on @done(22-04-24 20:33)
+	✔ S3 Storage classes + Glacier @done(22-04-24 20:33)
+	✔ S3 Storage classes + Glacier Hands-on @done(22-04-24 20:33)
+	✔ S3 Lifecycle rules @done(22-04-24 20:33)
+	✔ S3 Lifecycle rules hands-on @done(22-04-24 20:33)
+	✔ S3 Analysis @done(22-04-24 20:33)
+	✔ S3 Performance @done(22-04-24 20:39)
+
+
 ✔ Begin Section 31 Congratulations @done(22-04-20 20:04)
 	✔ Congrats AWS Certified Solutions Architect Associate @done(22-04-20 20:10)
 	✔ Thank you @done(22-04-20 20:10)
