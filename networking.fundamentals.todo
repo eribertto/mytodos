@@ -9,4 +9,9 @@ Begin YT Networking fundamentals Practical Networking Playlist
 	✔ Everything Hosts do to speak on the Internet - Part 2 - Networking Fundamentals - Lesson 3 @done(22-05-11 18:56)
 		✔ side note: Learn Address Resolution Protocol ARP @done(22-05-11 18:56)
 	✔ Everything Switches do - Part 1 - Networking Fundamentals - Lesson 4 @done(22-05-11 19:16)
-	☐ Everything Switches do - Part 2 - Networking Fundamentals - Lesson 4
+	✔ Everything Switches do - Part 2 - Networking Fundamentals - Lesson 4 @done(22-05-11 19:52)
+		Unicast flooding vs Broadcasts
+		VLANs aka Virtual Local Area Networks
+		Multiple Switches
+	☐ Everything Routers do - Part 1 - Networking Fundamentals - Lesson 5
+
