@@ -2,6 +2,14 @@ Begin Subnetting Mastery playlist
 https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE
 
 ✔ What is Subnetting? - Subnetting Mastery - Part 1 of 7 @done(22-05-13 16:50)
+	note the 7 attributes in solving subnetting problems:
+		Network ID
+		Broadcast ID
+		First Host IP
+		Last Host IP
+		Next Network
+		Number of usable IP addresses
+		CIDR/subnet
 ✔ Drawing the Cheat Sheet - Subnetting Mastery - Part 2 of 7 @done(22-05-13 17:04)
 	row 1 start with 1 then double it from Right to Left (this row is the Group size)
 	row 2 deduct 256 from each number of row 1 from right to left (this is the subnet mask)
