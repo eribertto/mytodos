@@ -6,9 +6,9 @@ https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOd
 	row 1 start with 1 then double it from Right to Left (this row is the Group size)
 	row 2 deduct 256 from each number of row 1 from right to left (this is the subnet mask)
 	row 3 from right to left write the cidr notation beginning with /32 until all the rows are populated
-	128		64	32	16	8	4	2	1	Group mask
-	128		192	224	240 248	252	254	255	subnet mask
-	/25		/26	/27	/28	/29	/30	/31	/32	CIDR
+	128|64|	32|	16|	8|4|2|1|Group mask
+	128|192|224|240|248|252|254|255|subnet mask
+	/25	|/26|/27|/28|/29|/30|/31|/32|CIDR
 ✔ How to solve ANY Subnetting Problems in 60 seconds or less - Subnetting Mastery - Part 3 of 7 @done(22-05-13 17:21)
 ☐ Practice Examples - Subnetting Mastery - Part 4 of 7
 
