@@ -1,4 +1,16 @@
 
+installing acroread 
+This software is heavily outdated and crashes reproducibly.
+possible workarounds:
+• use another pdf-reader whereever possible
+• use acroread windows version in wine (HowTo: https://appdb.winehq.org/objectManager.php?sClass=version&iId=27093&iTestingId=92286)
+• remove /opt/Adobe/Reader9/Reader/intellinux/plug_ins/EFS.api (this might have unknown consequences regarding your data and software functionality)
+Optional dependencies for acroread
+    acroread-fonts: CJK and extended font packs
+    lib32-gtk-engine-murrine: fix ugly buttons and scrollbars
+
+
+
 Resume Udemy AWS CCP course, this time follow the hands-on as much as possible. Use the hotmail account for hands-on lab.
 	☐ create new normal user to use for linux challenge, refer to stephane mareks udemy course
 	✔ downloaded the course codes and slides in EOS box @done(22-05-15 05:44)
