@@ -1,0 +1,17 @@
+✔ Install Kde plasma-meta in Arch Deepin box @done(22-05-20 11:56)
+✔ install kde-applications-meta? no @done(22-05-20 11:56)
+	✔ total 394 packages @done(22-05-20 12:00)
+☐ install plasma-wayland-session? no
+
+Using a display manager
+Tip: The preferred display manager is SDDM.
+✔ Select Plasma (X11) to launch a new session in Xorg. @done(22-05-20 11:57)
+	✔ note: sddm session is using X11/Xorg @done(22-05-20 11:57)
+	✔ and sddm is preinstalled already coming from Deepin DE @done(22-05-20 13:23)
+	✔ info: install sddm as per this link @done(22-05-20 11:56)
+		https://wiki.archlinux.org/title/SDDM
+Select Plasma (Wayland) to launch a new session in Wayland.
+From the console
+To start Plasma with xinit/startx, append export DESKTOP_SESSION=plasma and exec startplasma-x11 to your .xinitrc file. If you want to start Xorg at login, please see Start X at login.
+To start a Plasma on Wayland session from a console, run dbus-run-session startplasma-wayland[1]
+
