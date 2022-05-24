@@ -19,5 +19,7 @@ partition details of MX Linux in lenovo E590
 		/dev/sda1 is /boot/efi
 		/dev/sda2 is root /
 		/dev/sda3 is swap
-yy
+
+intel driver graphics in freebsd
+https://forums.freebsd.org/threads/how-to-use-the-old-or-the-new-i915kms-driver-for-intel-integrated-graphics-with-xorg.66732/
 zz
