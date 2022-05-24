@@ -22,4 +22,6 @@ partition details of MX Linux in lenovo E590
 
 intel driver graphics in freebsd
 https://forums.freebsd.org/threads/how-to-use-the-old-or-the-new-i915kms-driver-for-intel-integrated-graphics-with-xorg.66732/
-zz
+
+Xorg install in Freebsd:
+https://docs.freebsd.org/en/books/handbook/x11/#x11-wm
