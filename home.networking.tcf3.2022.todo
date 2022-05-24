@@ -2,3 +2,22 @@
 
 
 ## Begin journal of home networking May 24, 2022 TCF Hofuf, Saudi Arabia Hawiyah Unayzah Support and Infra Project
+
+✔ Re-arrange positions of networking equipment in room in preparation for home networking project @done(22-05-24 19:42)
+✔ Burned iso to live usb the following distros: Fedora 36 server & FreeBSD 13.1 @done(22-05-24 19:37)
+✔ Bought small folding table for mount of laptop PCs and RJ45 cables for wiring. @done(22-05-24 19:38)
+Target plan is to install FreeBSD in Lenovo E590 box and take it from there. Reference guides of install are the handbook and Youtube series of RoboNuggie.
+	https://www.youtube.com/watch?v=kYyFAe5J9Zs
+	https://www.freebsd.org/releases/13.1R/installation/
+	https://docs.freebsd.org/en/books/handbook/bsdinstall/
+partition details of MX Linux in lenovo E590
+	/dev/nvme0n1 is 229.37 GB	# this is arcolinux OS
+		/dev/nvme0n1pi is boot 300 MB
+		/dev/nvme0n1p2 is root 229 GB
+		/dev/nvme0n1p3 is swap 8 GB
+	/dev/sda is 923.25 GB		# this is MxLinux distro
+		/dev/sda1 is /boot/efi
+		/dev/sda2 is root /
+		/dev/sda3 is swap
+yy
+zz
