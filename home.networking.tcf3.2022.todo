@@ -62,7 +62,7 @@ FreeBSD install plan on the Thinkpad E590:
 	check keymap is set to english in /etc/rc.conf
 	edit /etc/login.conf with UTF-8> yes/no?
 	edit /boot/loader.conf and add the below line:
-		autoboot_delay="2"
+		✔ autoboot_delay="2" @done(22-05-25 21:27)
 	reboot and check locale with the command locale
 	change the quarterly setting to latest ala Arch rolling release get the latest by doing the following:
 		# mkdir -p /usr/local/etc/pkg/repos
@@ -75,8 +75,13 @@ FreeBSD install plan on the Thinkpad E590:
 		Then update the package database with:
 			pkg update
 		Verify that pkg is using the latest repository
-		# pkg -vv (check output it should show latest in the url line)
+		✔ # pkg -vv (check output it should show latest in the url line) @done(22-05-25 21:27)
 
 	Install bash and friends and change shell to bash
-			# pkg install bash bash-completion vim git fzf doas nnn mc neovim firefox vivaldi mpv hexchat gimp okular filezilla google-fonts smplayer
+			✔ # pkg install bash bash-completion vim git fzf doas nnn mc firefox-esr mpv hexchat gimp okular filezilla google-fonts smplayer @done(22-05-25 20:47)
+
+			note: vivaldi is not in the repo, also skipped neovim
+	Note: added .bashrc, .bash_profile, soft link them and add aliases file and source this inside dot bashrc
+
+	TODO: finish the doas config then move to installation of KDE
 
