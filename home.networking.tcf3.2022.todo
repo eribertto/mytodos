@@ -33,3 +33,6 @@ Get tips installing FreeBSD from this link (he used XFCE then i3):
 
 FreeBSD install plan on the Thinkpad E590:
 	Follow installation prompts as per live usb drive until you complete the root and user account creation and rebooting the system to CLI and updating the system.
+
+	Prepare in advance the IP address and subnet details to configure networking. If possible Use static IP else use DHCP.
+
