@@ -36,35 +36,35 @@ FreeBSD install plan on the Thinkpad E590:
 
 	Prepare in advance the IP address and subnet details to configure networking. If possible Use static IP else use DHCP.
 
-	Use IP static 192.168.8.127
-	Subnet mask 255.255.255.0
-	Default gateway 192.168.8.1
+	✔ Use IP static 192.168.8.127 @done(22-05-25 21:41)
+	✔ Subnet mask 255.255.255.0 @done(22-05-25 21:41)
+	✔ Default gateway 192.168.8.1 @done(22-05-25 21:41)
 
 	target disk to use is arcolinux, see below
-	/dev/nvme0n1 is 229.37 GB	# this is arcolinux OS
-	use auto zfs (guided install)
-	root passawd BHU890))poi
-	username: eribertto
-	full name: Eriberto Mendz
-	passawd: MKO00987ytr
-	add eribertto to group: wheel operator video
-	accept all defaults in the user creation
-	reboot system when finish
-	login to user then su to root
-	check system with uname -a
-	freebsd-update fetch
-	freebsd-update install
-	shutdown -r now
-	relogin as user, su to root
-	pkg update (accept to install pkg if prompted)
-	add below line to /boot/loader.conf
-		kern.vty="vt"
-	check keymap is set to english in /etc/rc.conf
+	✔ /dev/nvme0n1 is 229.37 GB	# this is arcolinux OS @done(22-05-25 21:42)
+	✔ use auto zfs (guided install) @done(22-05-25 21:42)
+	✔ root passawd BHU890))poi @done(22-05-25 21:42)
+	✔ username: eribertto @done(22-05-25 21:42)
+	✔ full name: Eriberto Mendz @done(22-05-25 21:42)
+	✔ passawd: MKO00987ytr @done(22-05-25 21:42)
+	✔ add eribertto to group: wheel operator video @done(22-05-25 21:42)
+	✔ accept all defaults in the user creation @done(22-05-25 21:42)
+	✔ reboot system when finish @done(22-05-25 21:42)
+	✔ login to user then su to root @done(22-05-25 21:42)
+	✔ check system with uname -a @done(22-05-25 21:42)
+	✔ freebsd-update fetch @done(22-05-25 21:42)
+	✔ freebsd-update install @done(22-05-25 21:42)
+	✔ shutdown -r now @done(22-05-25 21:42)
+	✔ relogin as user, su to root @done(22-05-25 21:42)
+	✔ pkg update (accept to install pkg if prompted) @done(22-05-25 21:42)
+	✔ add below line to /boot/loader.conf @done(22-05-25 21:42)
+		✔ kern.vty="vt" @done(22-05-25 21:42)
+	✔ check keymap is set to english in /etc/rc.conf @done(22-05-25 21:42)
 	edit /etc/login.conf with UTF-8> yes/no?
-	edit /boot/loader.conf and add the below line:
+	✔ edit /boot/loader.conf and add the below line: @done(22-05-25 21:42)
 		✔ autoboot_delay="2" @done(22-05-25 21:27)
-	reboot and check locale with the command locale
-	change the quarterly setting to latest ala Arch rolling release get the latest by doing the following:
+	✔ reboot and check locale with the command locale @done(22-05-25 21:42)
+	✔ change the quarterly setting to latest ala Arch rolling release get the latest by doing the following: @done(22-05-25 21:42)
 		# mkdir -p /usr/local/etc/pkg/repos
 		# vi /usr/local/etc/pkg/repos/FreeBSD.conf
 		Then insert the following lines:
@@ -74,14 +74,14 @@ FreeBSD install plan on the Thinkpad E590:
 		}
 		Then update the package database with:
 			pkg update
-		Verify that pkg is using the latest repository
+		✔ Verify that pkg is using the latest repository @done(22-05-25 21:42)
 		✔ # pkg -vv (check output it should show latest in the url line) @done(22-05-25 21:27)
 
 	Install bash and friends and change shell to bash
 			✔ # pkg install bash bash-completion vim git fzf doas nnn mc firefox-esr mpv hexchat gimp okular filezilla google-fonts smplayer @done(22-05-25 20:47)
 
 			note: vivaldi is not in the repo, also skipped neovim
-	Note: added .bashrc, .bash_profile, soft link them and add aliases file and source this inside dot bashrc
+	✔ Note: added .bashrc, .bash_profile, soft link them and add aliases file and source this inside dot bashrc @done(22-05-25 21:43)
 
 	TODO: finish the doas config then move to installation of KDE
 
