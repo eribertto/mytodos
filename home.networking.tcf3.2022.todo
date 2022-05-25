@@ -25,3 +25,6 @@ https://forums.freebsd.org/threads/how-to-use-the-old-or-the-new-i915kms-driver-
 
 Xorg install in Freebsd:
 https://docs.freebsd.org/en/books/handbook/x11/#x11-wm
+
+Get tips installing FreeBSD from this link (he used XFCE then i3):
+	https://www.unixsheikh.com/tutorials/how-to-setup-freebsd-with-a-riced-desktop-part-1-basic-setup.html
