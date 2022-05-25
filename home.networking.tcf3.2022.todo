@@ -77,3 +77,6 @@ FreeBSD install plan on the Thinkpad E590:
 		Verify that pkg is using the latest repository
 		# pkg -vv (check output it should show latest in the url line)
 
+	Install bash and friends and change shell to bash
+			# pkg install bash bash-completion vim git fzf doas nnn mc neovim firefox vivaldi mpv hexchat gimp okular filezilla google-fonts smplayer
+
