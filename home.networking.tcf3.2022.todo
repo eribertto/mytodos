@@ -83,5 +83,13 @@ FreeBSD install plan on the Thinkpad E590:
 			note: vivaldi is not in the repo, also skipped neovim
 	✔ Note: added .bashrc, .bash_profile, soft link them and add aliases file and source this inside dot bashrc @done(22-05-25 21:43)
 
-	TODO: finish the doas config then move to installation of KDE
+	TODO: 
+		finish the doas config then move to installation of KDE
+		Note after google-font install:
+			Add the following line to the "Files" section of X windows configuration file:
+				FontPath "/usr/local/share/fonts/google-fonts/"
+	
+	# vim /usr/local/etc/doas.conf
+	permit nopass eribertto cmd shutdown
+	permit nopass eribertto cmd pkg
 
