@@ -32,7 +32,48 @@ Get tips installing FreeBSD from this link (he used XFCE then i3):
 	https://wiki.freebsd.org/Graphics
 
 FreeBSD install plan on the Thinkpad E590:
-	Follow installation prompts as per live usb drive until you complete the root and user account creation and rebooting the system to CLI and updating the system.
+	Follow installation prompts as per live usb until you complete the root and user account creation and rebooting the system to CLI and updating the system.
 
 	Prepare in advance the IP address and subnet details to configure networking. If possible Use static IP else use DHCP.
+
+	Use IP static 192.168.8.127
+	Subnet mask 255.255.255.0
+	Default gateway 192.168.8.1
+
+	target disk to use is arcolinux, see below
+	/dev/nvme0n1 is 229.37 GB	# this is arcolinux OS
+	use auto zfs (guided install)
+	root passawd BHU890))poi
+	username: eribertto
+	full name: Eriberto Mendz
+	passawd: MKO00987ytr
+	add eribertto to group: wheel operator video
+	accept all defaults in the user creation
+	reboot system when finish
+	login to user then su to root
+	check system with uname -a
+	freebsd-update fetch
+	freebsd-update install
+	shutdown -r now
+	relogin as user, su to root
+	pkg update (accept to install pkg if prompted)
+	add below line to /boot/loader.conf
+		kern.vty="vt"
+	check keymap is set to english in /etc/rc.conf
+	edit /etc/login.conf with UTF-8> yes/no?
+	edit /boot/loader.conf and add the below line:
+		autoboot_delay="2"
+	reboot and check locale with the command locale
+	change the quarterly setting to latest ala Arch rolling release get the latest by doing the following:
+		# mkdir -p /usr/local/etc/pkg/repos
+		# vi /usr/local/etc/pkg/repos/FreeBSD.conf
+		Then insert the following lines:
+
+		FreeBSD: {
+		url: "pkg+https://pkg.FreeBSD.org/${ABI}/latest"
+		}
+		Then update the package database with:
+			pkg update
+		Verify that pkg is using the latest repository
+		# pkg -vv (check output it should show latest in the url line)
 
