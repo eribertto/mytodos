@@ -112,8 +112,8 @@ If you notice high CPU usage, or excessive tearing with HD video: multimedia/lib
 
 Example configuration:
 
-Install the graphics/drm-kmod package
-# pkg install drm-kmod
+TODO: Install the graphics/drm-kmod package
+# pkg install drm-kmod mesa-libs mesa-dri libva-intel-driver
 
 The post-installation message presents essential information. With FreeBSD 13⋯, this command will safely configure your /etc/rc.conf:
 
@@ -124,7 +124,7 @@ Ensure that your UID is a member of the video group.
 Restart your system. You should see i915kms listed, and a flash of the console when the display driver is switched.
 
 Start X.Org via your usual method (i.e. startx, GDM, etc.)
-In most cases:
 
+In most cases:
 Manual configuration of X.Org is not required
 x11-drivers/xf86-video-intel is optional
