@@ -181,6 +181,27 @@ NOte: no sound in KDE, try to solve using this link
 			there is no sound coming from media players, the above is only solved on firefox
 		note:
 			installed python 3.8 and ipython 3.8 in freebsd box
+		note:
+			success ssh from freebsd box to nucbox eos by first enabling the sshd service like so:
+sudo systemctl enable --now sshd
+❯ systemctl status sshd
+● sshd.service - OpenSSH Daemon
+     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; vendor preset: disabled)
+     Active: active (running) since Thu 2022-05-26 22:30:59 +03; 3min 11s ago
+   Main PID: 17543 (sshd)
+      Tasks: 1 (limit: 38369)
+     Memory: 1.9M
+        CPU: 153ms
+     CGroup: /system.slice/sshd.service
+             └─17543 "sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups"
+
+May 26 22:30:59 eriberto-nuc7i5bnh systemd[1]: Started OpenSSH Daemon.
+May 26 22:30:59 eriberto-nuc7i5bnh sshd[17543]: Server listening on 0.0.0.0 port 22.
+May 26 22:30:59 eriberto-nuc7i5bnh sshd[17543]: Server listening on :: port 22.
+May 26 22:32:32 eriberto-nuc7i5bnh sshd[17602]: pam_systemd_home(sshd:auth): systemd-homed is not available: Un>
+May 26 22:32:32 eriberto-nuc7i5bnh sshd[17602]: Accepted password for eribertto from 192.168.8.127 port 10813 s>
+lines 1-15...skipping...
+
 
 
 (Optional):
