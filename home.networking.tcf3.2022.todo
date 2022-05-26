@@ -113,11 +113,14 @@ If you notice high CPU usage, or excessive tearing with HD video: multimedia/lib
 Example configuration:
 
 TODO: Install the graphics/drm-kmod package
-# pkg install drm-kmod mesa-libs mesa-dri libva-intel-driver
+# pkg install drm-kmod mesa-libs mesa-dri libva-intel-media-driver
 
 The post-installation message presents essential information. With FreeBSD 13⋯, this command will safely configure your /etc/rc.conf:
 
+TODO:
 # sysrc -f /etc/rc.conf kld_list+=i915kms
+## make alias for mpv e.g. alias mpv='mpv --vo=gpu --hwdec=vaapi'
+## to play mkv files run mpv video.mpv
 
 Ensure that your UID is a member of the video group.
 
