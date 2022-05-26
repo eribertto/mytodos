@@ -93,3 +93,38 @@ FreeBSD install plan on the Thinkpad E590:
 	permit nopass eribertto cmd shutdown
 	permit nopass eribertto cmd pkg
 
+Install drm-kmod driver for gpu driver in FreeBSD laptop:
+https://wiki.freebsd.org/Graphics
+Note  the below:
+drm-kmod
+graphics/drm-kmod indirectly provides a range of kernel modules for use with Intel Integrated Graphics and AMD graphics hardware.
+
+Associated code is actively developed and allows us to track, more closely, drivers in the Linux kernel.
+
+Intel Integrated Graphics (aka HD Graphics)
+Intel HD Graphics refers to the class of graphics chips that are integrated on the same die as an Intel CPU. Wikipedia offers a good overview of the variations and names used for generations of Intel HD Graphics. Intel HD Graphics chips are found in many modern laptop and desktop systems that ship with an Intel CPU. Commonly-found configurations include Kabylake Intel i915 HD Graphics.
+
+To enable the integrated graphics chip on Intel CPUs, install drm-kmod. The resulting module should work well on all compatible systems.
+
+This page includes a table of states for various Intel chipsets.
+
+If you notice high CPU usage, or excessive tearing with HD video: multimedia/libva-intel-driver may help – installation should be in addition to drm-kmod, mesa-libs and mesa-dri.
+
+Example configuration:
+
+Install the graphics/drm-kmod package
+# pkg install drm-kmod
+
+The post-installation message presents essential information. With FreeBSD 13⋯, this command will safely configure your /etc/rc.conf:
+
+# sysrc -f /etc/rc.conf kld_list+=i915kms
+
+Ensure that your UID is a member of the video group.
+
+Restart your system. You should see i915kms listed, and a flash of the console when the display driver is switched.
+
+Start X.Org via your usual method (i.e. startx, GDM, etc.)
+In most cases:
+
+Manual configuration of X.Org is not required
+x11-drivers/xf86-video-intel is optional
