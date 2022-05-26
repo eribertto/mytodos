@@ -119,6 +119,7 @@ The post-installation message presents essential information. With FreeBSD 13⋯
 
 TODO:
 # sysrc -f /etc/rc.conf kld_list+=i915kms
+## then reboot
 ## make alias for mpv e.g. alias mpv='mpv --vo=gpu --hwdec=vaapi'
 ## to play mkv files run mpv video.mpv
 
@@ -131,3 +132,6 @@ Start X.Org via your usual method (i.e. startx, GDM, etc.)
 In most cases:
 Manual configuration of X.Org is not required
 x11-drivers/xf86-video-intel is optional
+
+Install Desktop Environments DE guide:
+	https://docs.freebsd.org/en/books/handbook/x11/#x11-wm
