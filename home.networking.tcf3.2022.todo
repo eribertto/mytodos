@@ -135,3 +135,5 @@ x11-drivers/xf86-video-intel is optional
 
 Install Desktop Environments DE guide:
 	https://docs.freebsd.org/en/books/handbook/x11/#x11-wm
+TODO:
+	write guide how to install KDE and sddm and associated commands as per diary and the DE link above
