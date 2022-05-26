@@ -112,13 +112,11 @@ If you notice high CPU usage, or excessive tearing with HD video: multimedia/lib
 
 Example configuration:
 
-TODO: Install the graphics/drm-kmod package
-# pkg install drm-kmod mesa-libs mesa-dri libva-intel-media-driver
 
 The post-installation message presents essential information. With FreeBSD 13⋯, this command will safely configure your /etc/rc.conf:
 
-TODO:
-# sysrc -f /etc/rc.conf kld_list+=i915kms
+done:
+✔ # sysrc -f /etc/rc.conf kld_list+=i915kms @done(22-05-26 18:13)
 ## then reboot
 ## make alias for mpv e.g. alias mpv='mpv --vo=gpu --hwdec=vaapi'
 ## to play mkv files run mpv video.mpv
@@ -135,5 +133,56 @@ x11-drivers/xf86-video-intel is optional
 
 Install Desktop Environments DE guide:
 	https://docs.freebsd.org/en/books/handbook/x11/#x11-wm
-TODO:
+done:
 	write guide how to install KDE and sddm and associated commands as per diary and the DE link above
+May 26/22
+Guide installing KDE on FreeBSD (double check against roboNuggie YT install video walkthrough)
+https://community.kde.org/FreeBSD/Setup#Graphics_first
+https://www.freshports.org/graphics/drm-kmod/
+
+TODo: Install the graphics/drm-kmod package
+✔ pkg install drm-kmod mesa-libs mesa-dri libva-intel-driver OR @done(22-05-26 18:10)
+pkg install drm-kmod OR
+pkg install graphics/drm-kmod
+
+KDE and the rest
+✔ pkg install kde5 plasma5-sddm-kcm sddm xorg @done(22-05-26 18:44)
+	1 GB to be downloaded 507 packages
+✔ pkg install dbus @done(22-05-26 19:15)
+✔ sysrc dbus_enable="YES" && service dbus start @done(22-05-26 19:18)
+✔ sysrc sddm_enable="YES" && service sddm start @done(22-05-26 19:18)
+when logging in, avoid the Plasma (Wayland) … default that's presented by sddm – for Plasma, Wayland is not yet reliable.
+
+KDE requires /proc to be mounted. Add this line to /etc/fstab to mount this file system automatically during system startup:
+
+✔ proc           /proc       procfs  rw  0   0 @done(22-05-26 19:20)
+
+A second method for launching KDE Plasma is to type startx from the command line. For this to work, the following line is needed in ~/.xinitrc:
+✔ exec ck-launch-session startplasma-x11 @done(22-05-26 19:21)
+✔ Reboot PC, yes got gui KDE login on bootup!!! @done(22-05-26 19:23)
+Note: In KDE DE there is no network manager in the taskbar
+✔ Workaround: install networkmgr @done(22-05-26 19:39)
+	https://github.com/ghostbsd/networkmgr
+	After logout login there is network manager but shown only is ethernet there is no option for wifi.
+	todo:
+		find solution to wifi scan of network maybe use the CLI.
+
+		Making a Splash in FreeBSD (disable boot msgs)
+		https://www.youtube.com/watch?v=hd_LUxpPers
+		✔ sysrc rc_startmsgs="NO" @done(22-05-26 19:54)
+		✔ sysrc -f /boot/loader.conf boot_mute="YES" @done(22-05-26 19:54)
+		✔ sysrc -f /boot/loader.conf beastie_disable="YES" @done(22-05-26 19:54)
+		✔ sysrc -f /boot/loader.conf autoboot_delay=3 @done(22-05-26 19:54)
+NOte: no sound in KDE, try to solve using this link
+		https://docs.freebsd.org/en/books/handbook/multimedia/#sound-setup
+		solved by issuing command as root:
+			sysctl dev.hdac.0.polling=1
+		note:
+			there is no sound coming from media players, the above is only solved on firefox
+		note:
+			installed python 3.8 and ipython 3.8 in freebsd box
+
+
+(Optional):
+A third method for starting KDE Plasma is through XDM. To do so, create an executable ~/.xsession as follows:
+% echo "exec ck-launch-session startplasma-x11" > ~/.xsession
