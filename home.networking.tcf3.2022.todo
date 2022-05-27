@@ -4,7 +4,11 @@
 ## Begin journal of home networking May 24, 2022 TCF Hofuf, Saudi Arabia Hawiyah Unayzah Support and Infra Project
 
 NOte:
-	Try out the FreeBSD-14.0-current iso and install xfce instead of KDE and see if sound will work in this edition.
+	✔ Try out the FreeBSD-14.0-current iso and install xfce instead of KDE and see if sound will work in this edition. @done(22-05-27 05:45)
+
+	☐ Add below files to backup zip file
+		Also backup home dot files of eribertto
+		Copy files in /boot/loader.conf, /etc/rc.conf for reference
 
 
 
