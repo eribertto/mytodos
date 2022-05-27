@@ -3,6 +3,11 @@
 
 ## Begin journal of home networking May 24, 2022 TCF Hofuf, Saudi Arabia Hawiyah Unayzah Support and Infra Project
 
+✔ Try out GhostBSD install today @done(22-05-27 10:30)
+	✔ Lets see the outcome of this install @done(22-05-27 10:08)
+	☐ Install done can boot to nvme disk in grub menu BUT no sound in firefox
+	xx
+	yy
 NOte:
 	✔ Try out the FreeBSD-14.0-current iso and install xfce instead of KDE and see if sound will work in this edition. @done(22-05-27 05:45)
 		Install guide: https://vermaden.wordpress.com/2018/11/20/freebsd-desktop-part-2-1-install-freebsd-12/
@@ -17,12 +22,12 @@ NOte:
 						https://www.bing.com/search?q=freebsd+14+current+error%3A+cannot+open+%2Fboot%2Flua%2Floader.lua+no+such+file+or+directory&go=Search&qs=ds&form=QBRE
 			thats it pancit:
 				✔ ditch freebsd for now, @done(22-05-27 09:57)
-				☐ will try ghostbsd GhostBSD-22.05.14-XFCE.iso
+				✔ will try ghostbsd GhostBSD-22.05.14-XFCE.iso @done(22-05-27 10:07)
 
 		another xfce tweak:
 			https://vermaden.wordpress.com/2022/02/09/xfce-cupertino-way/
 
-	☐ Add below files to backup zip file
+	✔ Add below files to backup zip file @done(22-05-27 10:07)
 		Also backup home dot files of eribertto
 		Copy files in /boot/loader.conf, /etc/rc.conf for reference
 	
