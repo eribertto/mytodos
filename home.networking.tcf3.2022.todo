@@ -7,6 +7,11 @@
 		☐ Try installing FreeBSD 13.1 in TP460p laptop, might get lucky geting sound in that PC
 		✔ Or try out this GhostBSD in thinkpad 460 box if sound is ootb or no. @done(22-05-27 11:27)
 			yes confirmed there is sound ootb but no sound applet in xfce panel. one idea: try out the mate edition maybe there is sound applet.
+		✔ download the mate edition of GhostBSD to see if there is sound plus sound applet in desktop panel. @done(22-05-27 11:33)
+		✔ check sha256sum of the iso: yes is a match @done(22-05-27 11:37)
+		✔ test GhostBSD live iso if have sound in tp460p: yes plus have applet @done(22-05-27 11:57)
+		✔ test GhostBSD live iso if have sound in E590: yes plus applet @done(22-05-27 12:13)
+		☐ tip: to enable sshd in GhostBSD check the boot-loader.conf file in backup
 ✔ Try out GhostBSD install today @done(22-05-27 10:30)
 	✔ Lets see the outcome of this install @done(22-05-27 10:08)
 	✔ Install done can boot to nvme disk in grub menu BUT no sound in firefox @done(22-05-27 10:59)
