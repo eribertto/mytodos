@@ -3,9 +3,11 @@
 
 ## Begin journal of home networking May 24, 2022 TCF Hofuf, Saudi Arabia Hawiyah Unayzah Support and Infra Project
 
+	Idea:
+		☐ Try installing FreeBSD 13.1 in TP460p laptop, might get lucky geting sound in that PC
 ✔ Try out GhostBSD install today @done(22-05-27 10:30)
 	✔ Lets see the outcome of this install @done(22-05-27 10:08)
-	☐ Install done can boot to nvme disk in grub menu BUT no sound in firefox
+	✔ Install done can boot to nvme disk in grub menu BUT no sound in firefox @done(22-05-27 10:59)
 	xx
 	yy
 NOte:
