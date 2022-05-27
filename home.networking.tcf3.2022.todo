@@ -5,6 +5,10 @@
 
 NOte:
 	✔ Try out the FreeBSD-14.0-current iso and install xfce instead of KDE and see if sound will work in this edition. @done(22-05-27 05:45)
+		Install guide: https://vermaden.wordpress.com/2018/11/20/freebsd-desktop-part-2-1-install-freebsd-12/
+
+		another xfce tweak:
+			https://vermaden.wordpress.com/2022/02/09/xfce-cupertino-way/
 
 	☐ Add below files to backup zip file
 		Also backup home dot files of eribertto
