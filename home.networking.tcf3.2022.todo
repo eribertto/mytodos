@@ -7,6 +7,18 @@ NOte:
 	✔ Try out the FreeBSD-14.0-current iso and install xfce instead of KDE and see if sound will work in this edition. @done(22-05-27 05:45)
 		Install guide: https://vermaden.wordpress.com/2018/11/20/freebsd-desktop-part-2-1-install-freebsd-12/
 
+		☐ begin install of FreeBSD-14-current
+			root passawd is same as previous
+			see notes in notebook diary
+			update:
+				install is fail: failed to find bootable partition
+				Error: cannot open /boot/lua/loader.lua: no such file or directory
+					search result yields a lot of bug reports related to the issue:
+						https://www.bing.com/search?q=freebsd+14+current+error%3A+cannot+open+%2Fboot%2Flua%2Floader.lua+no+such+file+or+directory&go=Search&qs=ds&form=QBRE
+			thats it pancit:
+				✔ ditch freebsd for now, @done(22-05-27 09:57)
+				☐ will try ghostbsd GhostBSD-22.05.14-XFCE.iso
+
 		another xfce tweak:
 			https://vermaden.wordpress.com/2022/02/09/xfce-cupertino-way/
 
