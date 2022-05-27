@@ -1,4 +1,8 @@
 
+Budgie desktop: move focused window to left or right workspace:
+	combo press ctrl+shift+alt+ left/right arrows
+	https://github.com/solus-project/budgie-desktop/issues/1592
+
 Note the CLI alternatives written in Rust:
 	https://zaiste.net/posts/shell-commands-rust/
 	https://gist.github.com/sts10/daadbc2f403bdffad1b6d33aff016c0a
