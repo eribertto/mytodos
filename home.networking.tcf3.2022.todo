@@ -16,10 +16,12 @@
 			✔ root passwd, username details same as in freebsd previous installation @done(22-05-27 12:55)
 		Reboot PC and login and test for sound: YES/NO
 		TODO:
-			Set to YES sshd_enable in /etc/rc.conf
+			✔ Set to YES sshd_enable in /etc/rc.conf @done(22-05-27 14:33)
+			✔ Can ssh to GhostBSD box from nuc EOS box? YES @done(22-05-27 14:36)
 			Add eribertto to video, network groups
-			install doas and add aliases to eribertto
+			install doas and bash-completion (in bashrc)
 			setup vimrc and bashrc, also link .bashrc to .bash_profile
+			and add aliases to eribertto
 
 ✔ Try out GhostBSD install today @done(22-05-27 10:30)
 	✔ Lets see the outcome of this install @done(22-05-27 10:08)
