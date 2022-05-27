@@ -3,6 +3,7 @@
 
 ## Begin journal of home networking May 24, 2022 TCF Hofuf, Saudi Arabia Hawiyah Unayzah Support and Infra Project
 
+Note: Learn termscp https://veeso.github.io/termscp/#user-manual
 	Idea:
 		✔ Try installing FreeBSD 13.1 in TP460p laptop, might get lucky geting sound in that PC @done(22-05-27 12:54)
 		✔ Or try out this GhostBSD in thinkpad 460 box if sound is ootb or no. @done(22-05-27 11:27)
