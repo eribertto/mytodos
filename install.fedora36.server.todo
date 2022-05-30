@@ -44,3 +44,6 @@ Note:
 ✔ Disable system users password login @done(22-05-30 21:24)
 ✔ Check Cockpit access @done(22-05-30 21:24)
 ✔ Note: tried logging in to cockpit using root account and its a pass! @done(22-05-30 21:26)
+Link to Fedora 36 system administrators guide:
+	https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/
+
