@@ -14,5 +14,29 @@ Reboot after install and this lands me to console mode, no gui.
 		✔ remedy: change the hostname using hostnamectl mentioned in the post install guide: @done(22-05-30 19:36)
 			https://docs.fedoraproject.org/en-US/fedora-server/sysadmin-postinstall/
 	☐ First login after installation
+	# configure ssh in server, below are just examples, suit to match your use case
+	✔ […]# ssh hostmin@hostexample.com @done(22-05-30 20:10)
+	hostmin@host.example.com's password:
+	✔ […]# sudo su - @done(22-05-30 20:10)
+	✔ [sudo] Passwort for hostmin: @done(22-05-30 20:10)
+	NOte:
+		Back on your desktop, create a key file (leave the password field *empty* for easy access on a secure desktop and choose a descriptive name for the generated key file). For easy access create a config file
 
+[…]# mkdir ~/.ssh
+[…]# chmod 700 ~/.ssh
+[…]# cd ~/.ssh
+[…]# ssh-keygen -t rsa -b 4096  -C "auth key for fedora server" -f ~/.ssh/eos-key-rsa
+[…]# ssh-copy-id -i $outputkeyfile.pub hostmin@host.example.com
+[…]# vi ~/.ssh/config
+Host myhost
+        Hostname host.example.com
+        User hostmin
+        ProxyCommand none
+        ForwardAgent no
+        ForwardX11 no
+        Port 22
+        KeepAlive yes
+        IdentityFile ~/.ssh/$outputkeyfile
+NOTE:
+	After following the above steps using my own details i can now login to fedora server by just doing `ssh arch` without providing any password. This is due to the ssh-copy-id command above
 
