@@ -7,6 +7,16 @@
 	username: eribertto (give admin access)
 	full name: Eriberto Mendz
 	passwd: MKO00987ytr
+Reboot after install and this lands me to console mode, no gui.
+	login as eribertto is OK
+	check this fedora machine is reachable from EOS with ping and nmap: yes
+	NOTE: hostname of fedora server is archlinux, very strange.
+		✔ remedy: change the hostname using hostnamectl mentioned in the post install guide: @done(22-05-30 19:36)
+			https://docs.fedoraproject.org/en-US/fedora-server/sysadmin-postinstall/
+		✔ First login after installation @done(22-05-30 19:48)
+
+
+
 ✔ Archlinux partition is /dev/sda 447GB @done(22-05-30 18:54)
 ✔ Follow install guide as per this link: @done(22-05-30 18:09)
 	https://docs.fedoraproject.org/en-US/fedora-server/installation-an-introduction/
