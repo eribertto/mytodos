@@ -46,4 +46,7 @@ Note:
 ✔ Note: tried logging in to cockpit using root account and its a pass! @done(22-05-30 21:26)
 Link to Fedora 36 system administrators guide:
 	https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/
+	Fedora 36 netinstaller link:
+		https://alt.fedoraproject.org
+		https://download.fedoraproject.org/pub/fedora/linux/releases/36/Server/x86_64/iso/Fedora-Server-netinst-x86_64-36-1.5.iso
 
