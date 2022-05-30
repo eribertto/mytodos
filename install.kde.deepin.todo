@@ -1,3 +1,10 @@
+✔ Note: today target to install Fedora 36 server OVER MXLinux in tp460 laptop. @done(22-05-30 18:09)
+✔ Partition target is /dev/sdb @done(22-05-30 18:09)
+✔ Follow install guide as per this link: @done(22-05-30 18:09)
+	https://docs.fedoraproject.org/en-US/fedora-server/installation-an-introduction/
+☐ Install is success? Yes/No
+
+
 ✔ Install Kde plasma-meta in Arch Deepin box @done(22-05-20 11:56)
 ✔ install kde-applications-meta? no @done(22-05-20 11:56)
 	✔ total 394 packages @done(22-05-20 12:00)
