@@ -13,7 +13,7 @@ Reboot after install and this lands me to console mode, no gui.
 	NOTE: hostname of fedora server is archlinux, very strange.
 		✔ remedy: change the hostname using hostnamectl mentioned in the post install guide: @done(22-05-30 19:36)
 			https://docs.fedoraproject.org/en-US/fedora-server/sysadmin-postinstall/
-	✔ First login after installation @done(22-05-30 20:49)
+✔ First login after installation @done(22-05-30 20:49)
 	# configure ssh in server, below are just examples, suit to match your use case
 	✔ […]# ssh hostmin@hostexample.com @done(22-05-30 20:10)
 	hostmin@host.example.com's password:
@@ -41,4 +41,6 @@ NOTE:
 	After following the above steps using my own details i can now login to fedora server by just doing `ssh arch` without providing any password. This is due to the ssh-copy-id command above
 Note:
 	Logging in via cockpit web console is a success providing username password then can enable admin privs to setup automatic updates and apply updates each friday morning.
-
+✔ Disable system users password login @done(22-05-30 21:24)
+✔ Check Cockpit access @done(22-05-30 21:24)
+✔ Note: tried logging in to cockpit using root account and its a pass! @done(22-05-30 21:26)
