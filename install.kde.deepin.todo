@@ -1,5 +1,6 @@
 ✔ Note: today target to install Fedora 36 server OVER MXLinux in tp460 laptop. @done(22-05-30 18:09)
-✔ Partition target is /dev/sdb @done(22-05-30 18:09)
+✔ Partition target is /dev/sdb 477GB @done(22-05-30 18:09)
+✔ Archlinux partition is /dev/sda 447GB @done(22-05-30 18:54)
 ✔ Follow install guide as per this link: @done(22-05-30 18:09)
 	https://docs.fedoraproject.org/en-US/fedora-server/installation-an-introduction/
 ☐ Install is success? Yes/No
