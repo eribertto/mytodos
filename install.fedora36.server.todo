@@ -39,4 +39,6 @@ Reboot after install and this lands me to console mode, no gui.
 			IdentityFile ~/.ssh/$outputkeyfile
 NOTE:
 	After following the above steps using my own details i can now login to fedora server by just doing `ssh arch` without providing any password. This is due to the ssh-copy-id command above
+Note:
+	Logging in via cockpit web console is a success providing username password then can enable admin privs to setup automatic updates and apply updates each friday morning.
 
