@@ -1,5 +1,12 @@
 ✔ Note: today target to install Fedora 36 server OVER MXLinux in tp460 laptop. @done(22-05-30 18:09)
 ✔ Partition target is /dev/sdb 477GB @done(22-05-30 18:09)
+	Delete all partitions to give way to new OS
+	Enable root
+	passwd: BHU890))poi
+	do not allow root ssh with password
+	username: eribertto (give admin access)
+	full name: Eriberto Mendz
+	passwd: MKO00987ytr
 ✔ Archlinux partition is /dev/sda 447GB @done(22-05-30 18:54)
 ✔ Follow install guide as per this link: @done(22-05-30 18:09)
 	https://docs.fedoraproject.org/en-US/fedora-server/installation-an-introduction/
