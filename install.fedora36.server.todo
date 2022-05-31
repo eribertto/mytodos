@@ -1,3 +1,8 @@
+Note: After playing with live Ubuntu server iso and discard changes, Arch OS cannot be rebooted anymore e.g. got stuck in the Lenovo splash screen. Cannot be cold reset using the 3 finger salute combo.
+how about Fedora server? YES, can still boot but ping is no good e.g. the machine IP has changed to 192.168.8.103.
+Because of this change of IP, ping, nmap, ssh and other network tools are broken. Workaround:
+	change the IP of the box in /etc/hosts file
+
 Burned fedora36 net installer and try out in thinkpad tp460 laptop:
 	burned iso using balena etcher app
 	boot to usb drive in laptop
