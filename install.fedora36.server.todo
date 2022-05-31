@@ -1,3 +1,12 @@
+Burned fedora36 net installer and try out in thinkpad tp460 laptop:
+	burned iso using balena etcher app
+	boot to usb drive in laptop
+	install setup is the same as performed yesterday so I say pass, try out other servers.
+	other servers to try:
+		AlmaLinux-9
+		Ubuntu 22.04 live server
+		note the closest Linux mirrors here in saudi:
+			https://mirrors.isu.net.sa
 ✔ Note: today target to install Fedora 36 server OVER MXLinux in tp460 laptop. @done(22-05-30 18:09)
 ✔ Partition target is /dev/sdb 477GB @done(22-05-30 18:09)
 	Delete all partitions to give way to new OS
