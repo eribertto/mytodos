@@ -1,3 +1,17 @@
+Install Ubuntu server to arch linux partition /dev/sda e.g. format this drive (used to be arch linux)
+username eribertto
+passwd	MKO00987ytr
+hostname	ubuntu-server-2204
+✔ install OpenSSH server @done(22-05-31 20:53)
+install popular snaps in server environment:
+	nextcloud
+	docker
+	wormhole
+	aws-cli
+	google-cloud-sdk
+	stress-ng
+
+
 Note: After playing with live Ubuntu server iso and discard changes, Arch OS cannot be rebooted anymore e.g. got stuck in the Lenovo splash screen. Cannot be cold reset using the 3 finger salute combo.
 how about Fedora server? YES, can still boot but ping is no good e.g. the machine IP has changed to 192.168.8.103.
 Because of this change of IP, ping, nmap, ssh and other network tools are broken. Workaround:
