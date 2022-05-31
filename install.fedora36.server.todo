@@ -1,3 +1,6 @@
+reboot after install: yes can login to UBS cli:
+	ssh to server from EOS: yes, can connect!
+
 Install Ubuntu server to arch linux partition /dev/sda e.g. format this drive (used to be arch linux)
 username eribertto
 passwd	MKO00987ytr
