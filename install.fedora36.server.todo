@@ -1,3 +1,19 @@
+Boot to Ubuntu server today and plan to install a lightweigh DE to manage the server
+	DE of choice will be Xubuntu since this is Ubuntu server
+	Install slim as well for gui login from guide https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu
+		Commands:
+			1. update the system first
+			2. Install tasksel to fire up graphical UI
+			3. Install the DE of choice e.g. xfce desktop (note xubuntu is not available)
+				also selected laptop choice
+				note: tasksel is started in the server console, not in the ssh cli
+				after install and reboot cannot login to desktop.
+				redo tasksel e.g. remove debian desktop environment, xfce and select mate + laptop
+					note: no go, not installed.
+					reboot pc again, this time it works, can login to xfce.
+
+
+
 reboot after install: yes can login to UBS cli:
 	ssh to server from EOS: yes, can connect!
 
