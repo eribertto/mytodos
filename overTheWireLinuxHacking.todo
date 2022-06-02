@@ -3,3 +3,9 @@ Begin tutorial game Over the wire hacking following the youtube playlist:
 	website https://overthewire.org/wargames/bandit/bandit0.html
 note the downloaded book guide for network CompTIA+ security
 Mark Ciampa-CompTIA Security+ Guide to Network Security Fundamentals.pdf
+
+note: stuck at bandit level 5-> level 6. the problem:
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+human-readable
+1033 bytes in size
+not executable
