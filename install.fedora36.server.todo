@@ -8,6 +8,12 @@
 		✔ set as admin @done(22-06-03 09:03)
 		✔ passwd: MKO00987ytr @done(22-06-03 09:04)
 	security profile: blank 
+	reboot machine after install: success, can login to AlmaLinux gnome DE!!!
+	✔ todo: howto update after install @done(22-06-03 09:28)
+	reboot to fedora server: OK
+	sudo halt fedora server: no poweroff, power LED still on!
+	reboot Alma: OK
+	shutdown/poweroff gui Alma: OK
 
 
 
