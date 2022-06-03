@@ -4,6 +4,9 @@ How to setu ssh in windows 10/11 for use in nonoys laptop:
 
 	Powershell howto:
 		https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2
+		✔ powershell updated in nonoys account @done(22-06-03 20:19)
+		✔ version is 7.2.4 as of this writing @done(22-06-03 20:19)
+		☐ check also in acer admin account and update if required
 
 ✔ Notes for Garuda usage today: @done(22-06-03 18:25)
 	# note the offending package stopping the full upgrade process
