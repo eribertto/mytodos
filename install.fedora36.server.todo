@@ -1,6 +1,16 @@
+Install Alma9 workstation in tp460p machine.
+Target partition is /dev/sda to replace Fedora 36 server as the machine has problem when doing poweroff, the LED light is keep ON.
+	root passwd: BHU890))poi
+		✔ disable root ssh login @done(22-06-03 09:02)
+	username: eribertto
+		✔ set as admin @done(22-06-03 09:03)
+		✔ passwd: MKO00987ytr @done(22-06-03 09:04)
+
+
+
 ✔ Install AlmaLinux 9 in thinkpad T460 and replace Ubuntu Server since its acting weird e.g. when i poweroff the machine the power-on light is still ON. @done(22-06-03 08:57)
 	install server with gui and other optional apps
-	partition to install is /dev/sda
+	partition to install is /dev/sdb
 	use wired connection enp0s3f6
 	root passwd: BHU890))poi
 		✔ disable root ssh login @done(22-06-03 09:02)
