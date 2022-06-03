@@ -6,6 +6,9 @@ Target partition is /dev/sda to replace Fedora 36 server as the machine has prob
 		✔ set as admin @done(22-06-03 09:03)
 		✔ passwd: MKO00987ytr @done(22-06-03 09:04)
 
+Aside: tutorial WSL as guide in nonoys Nitro 5 PC
+	https://www.youtube.com/watch?v=FQ6ahcJOVz0
+
 
 
 ✔ Install AlmaLinux 9 in thinkpad T460 and replace Ubuntu Server since its acting weird e.g. when i poweroff the machine the power-on light is still ON. @done(22-06-03 08:57)
