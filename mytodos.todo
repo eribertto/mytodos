@@ -1,4 +1,12 @@
 
+✔ Notes for Garuda usage today: @done(22-06-03 18:25)
+	# note the offending package stopping the full upgrade process
+	# in garuda linux June 3/22
+
+	libshumate-git-1.0.0.alpha.1.r41.gae3b919-1-x86_64.pkg.tar.zst failed to download
+
+
+
 Budgie desktop: move focused window to left or right workspace:
 	combo press ctrl+shift+alt+ left/right arrows
 	https://github.com/solus-project/budgie-desktop/issues/1592
