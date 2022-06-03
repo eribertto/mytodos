@@ -1,7 +1,14 @@
-reboot after install of workstation: OK
-can ssh from garuda box: yes
-sshd server is enabled: yes active
-LED lights on after poweroff alma? yes/no
+
+default OS when newly boot of tp460 machine is eribertto (workstation)
+to boot to Alma server select ATA HDD0 (the ssd) in boot manager
+todo:
+	refer to Linux admin guide pdf and tweak grub of almaserver to rename it accordingly.
+
+
+✔ reboot after install of workstation: OK @done(22-06-03 11:12)
+✔ can ssh from garuda box: yes @done(22-06-03 11:13)
+✔ sshd server is enabled: yes active @done(22-06-03 11:13)
+✔ LED lights on after poweroff alma? yes/no @done(22-06-03 11:13)
 
 Install Alma9 workstation in tp460p machine.
 Target partition is /dev/sda to replace Fedora 36 server as the machine has problem when doing poweroff, the LED light is keep ON.
