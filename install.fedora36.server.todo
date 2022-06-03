@@ -1,3 +1,8 @@
+reboot after install of workstation: OK
+can ssh from garuda box: yes
+sshd server is enabled: yes active
+LED lights on after poweroff alma? yes/no
+
 Install Alma9 workstation in tp460p machine.
 Target partition is /dev/sda to replace Fedora 36 server as the machine has problem when doing poweroff, the LED light is keep ON.
 	root passwd: BHU890))poi
