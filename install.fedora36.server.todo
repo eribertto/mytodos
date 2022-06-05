@@ -1,4 +1,38 @@
 
+
+
+--
+✔ june 5/22 @done(22-06-05 21:11)
+added some tweaks and configuration in nuc eos box
+changed host entry in /etc/hosts to 
+	192.168.8.103	tpad t460
+	this is the IP of Almalinux OS of the tpad machine as of this writing
+	also tweaked the file .ssh/config to add the above IP as host entry
+
+in the router added some IPs to bind to network and hostnames like so:
+	tpad (almalinux)	192.168.8.103
+	nucbox (eriberto-nuc7i5bnh)		192.168.8.129
+note:
+	the internet connection of nuc is now changed to wired to ensure the static IP configuration as noted above
+
+in tpad almalinux box the hostnames are changed using the command hostnamectl:
+	almalinux server	hostname: AlmaServer	/dev/sdb	ATA HDD CT480BX500SSD1
+	almalinux workstation	hostname: AlmaWork	/dev/sda	ATA HDD NT-512
+
+in nuc eos box i deleted the problematic line 15 in .ssh/known_hosts since ssh`ing to tpad results to error
+then tried the command in test mode:
+	ssh-copy-id -n -i eos-key-rsa.pub tpad
+	# this is success, no error
+then exec the final command:
+	ssh-copy-id -i eos-key-rsa.pub tpad
+	# this copies the pub key to almaserver stored in .ssh/authorized_keys
+then running the command `ssh tpad` asked for no password, can now login automatically to the server
+note to self:
+	repeat the above command when switching OS in tpad e.g. when switching to workstation OS since the above was done in server OS
+
+
+
+--
 default OS when newly boot of tp460 machine is eribertto (workstation)
 to boot to Alma server select ATA HDD0 (the ssd) in boot manager
 todo:
