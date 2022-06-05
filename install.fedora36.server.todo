@@ -4,6 +4,7 @@
 --
 todo: 
 	https://markontech.com/sysadmin/setup-nfs-server-on-alma-linux/
+	once setup is done create a backup using deja dup and mount it on the nfs server
 ✔ june 5/22 @done(22-06-05 21:11)
 added some tweaks and configuration in nuc eos box
 changed host entry in /etc/hosts to 
