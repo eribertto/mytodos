@@ -2,6 +2,11 @@ Begin reviewing Section 3 Host to Host communications e.g.
 	✔ Introduction @done(22-06-06 06:17)
 	✔ A basic introduction to networking @done(22-06-06 06:17)
 	✔ The OSI reference model @done(22-06-06 06:17)
+		note the useful acronyms:
+			Please Dont Need Those Stupid Packets Anyway
+			Please Do Not Teach Students Pointless Acronyms
+			Please Do Not Take Sales People's Advise
+			Please Do Not Touch Superman's Private Area lol
 	☐ The TCP/IP stack
 	☐ The Upper OSI layers
 	☐ The Lower OSI layers
