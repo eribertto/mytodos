@@ -12,6 +12,21 @@ add user:
 	eribertto (set as admin)
 	MKO00987ytr
 
+link fedora 36 post install guide
+https://github.com/devangshekhawat/Fedora-36-Post-Install-Guide
+
+✔ reboot after install: yes success can login to the desktop!!! @done(22-06-06 20:57)
+followed the guide above post install fedora to do.
+enable sshd:
+	https://www.linuxcapable.com/install-enable-connect-to-ssh-on-fedora-linux-35/
+	# assuming sshd is already installed:
+		sudo systemctl enable sshd --now
+		sudo systemctl status sshd
+		# start sshd daemon at boot
+		sudo systemctl enable sshd.service
+
+
+
 
 
 --
