@@ -29,6 +29,11 @@ fedora guide to ssh:
 
 ☐ todo: consider installing python classroom using groupinstall
 
+note:
+	when i do ssh-copy-id from nuc eos to fedsec box i get an error xxx
+	maybe because the destination machine is different OS and has different ssh settings
+	so a possible workaround is to define the variables of this destination machine in the .ssh/config file
+
 
 
 
