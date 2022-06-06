@@ -1,8 +1,10 @@
 ✔ Begin Section 4 Cisco IOS Operating systems @done(22-06-06 19:23)
-	☐ Introduction
-	☐ Cisco Operating Systems
-	☐ Connecting to a Cisco Device over the network
-	☐ Making the Initial Connection to a Cisco Device
+	✔ Introduction @done(22-06-06 19:52)
+	✔ Cisco Operating Systems @done(22-06-06 19:52)
+	✔ Connecting to a Cisco Device over the network @done(22-06-06 19:52)
+	✔ Making the Initial Connection to a Cisco Device @done(22-06-06 20:01)
+		Use the console cable DB9 to RJ45
+		uses usb to serial connection e.g. the usb plugs to the laptop or PC which the RJ45 connects to the router.
 	☐ Navigating the Cisco IOS operating system
 	☐ Cisco IOS configuration management
 	☐ The IOS Operating system Lab exercises
