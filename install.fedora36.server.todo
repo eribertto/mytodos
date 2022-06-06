@@ -2,7 +2,20 @@
 
 
 --
-todo: 
+June 6/22
+attempt to install Fedora 36 Security spin OS to t460 box in AlmaLinux workstation OS /dev/sda
+the security spin will be used for cybersecurity related learning
+https://labs.fedoraproject.org/security/download/index.html
+enable root account: BHU890))poi**
+	disable allow root ssh login
+add user:
+	eribertto (set as admin)
+	MKO00987ytr
+
+
+
+--
+☐ todo:
 	https://markontech.com/sysadmin/setup-nfs-server-on-alma-linux/
 	once setup is done create a backup using deja dup and mount it on the nfs server
 ✔ june 5/22 @done(22-06-05 21:11)
