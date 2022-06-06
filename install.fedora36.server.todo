@@ -24,6 +24,10 @@ enable sshd:
 		sudo systemctl status sshd
 		# start sshd daemon at boot
 		sudo systemctl enable sshd.service
+fedora guide to ssh:
+	https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/infrastructure-services/OpenSSH/
+
+☐ todo: consider installing python classroom using groupinstall
 
 
 
