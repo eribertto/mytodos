@@ -1,5 +1,11 @@
 
 
+--
+june 7/22
+fire up Ghostbsd box today having IP 192.168.8.127
+Have update of 136 packages
+edited the /etc/hosts file and added the entry of nucbox
+note the bsd sshd is open when nmapped from nuc box
 
 --
 June 6/22
