@@ -12,6 +12,7 @@ further tweaks:
 	success changing shell to bash and enabling bash completion:
 		also created vimrc, bashrc and aliases file in eribertto home dir
 		added more tweaks as per the guides above and in handbook
+		after reboot after the installs i can boot to xfce DE. Note: no sound but thats OK at least the GUI has worked out fine :-)
 
 
 
