@@ -1,5 +1,50 @@
 
 
+--
+June 7/22
+Try re-installing FreeBSD 13.1 in Lenovo box E590
+Follow this details:
+	✔ Use IP static 192.168.8.127 @done(22-05-25 21:41)
+	✔ Subnet mask 255.255.255.0 @done(22-05-25 21:41)
+	✔ Default gateway 192.168.8.1 @done(22-05-25 21:41)
+	hostname: freebsd.machine.home
+	use Auto (ZFS)
+	swap size: 8g
+	select nvd0 Sabrent (zfs disk)
+	force 4k sectors: yes
+	encrypt disks: no
+	partition scheme: gpt (bios + uefi)
+	mirror swap: no
+	encrypt swap: no
+	
+	root passwd: BHU890))poi
+	select network interface: re0
+	use dhcp: no
+	use network settings as above
+	configure ipv6:no
+	resolver config: use router ip above
+	timezone: select asia/riyadh
+	select services at boot:
+		sshd
+		moused
+		ntpdate
+		ntpd
+	choose security hardening:
+		clear_tmp
+		disable_sendmail
+	
+	add user:
+		eribertto
+		MKO00987ytr
+		invite user to other groups: wheel operator video
+		use shell: sh (change later: see YT video of robonuggie)
+	reboot after install and login to console: yes
+	login as root and do system update:
+
+
+
+
+
 
 ## Begin journal of home networking May 24, 2022 TCF Hofuf, Saudi Arabia Hawiyah Unayzah Support and Infra Project
 
