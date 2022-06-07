@@ -1,6 +1,9 @@
 
 
 --
+error in console: acpi_08: EcCommand: no response to 0x84
+Google this and post to fbsd forum
+
 June 7/22
 NB: this install is success!!!
 Try re-installing FreeBSD 13.1 in Lenovo box E590
