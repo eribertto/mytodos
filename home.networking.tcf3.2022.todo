@@ -3,6 +3,17 @@
 --
 error in console: acpi_08: EcCommand: no response to 0x84
 Google this and post to fbsd forum
+further tweaks:
+	copied some variables from ghostbsd rc.conf and add to /etc/rc.conf
+	pkg install xorg and reboot
+	change quarterly to latest in FreeBSD.conf file as per this guide:
+		https://www.unixsheikh.com/tutorials/how-to-setup-freebsd-with-a-riced-desktop-part-1-basic-setup.html
+	success ssh'ing to fbsd box without password by doing the command ssh-copy id of the auth key from nuc to fbsd box
+	success changing shell to bash and enabling bash completion:
+		also created vimrc, bashrc and aliases file in eribertto home dir
+		added more tweaks as per the guides above and in handbook
+
+
 
 June 7/22
 NB: this install is success!!!
