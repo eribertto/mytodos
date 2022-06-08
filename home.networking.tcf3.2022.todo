@@ -2,6 +2,9 @@
 
 --
 june 8/22
+update: sound is present now in the browser, for whatever reason.
+how about multimedia? yes, mpv can play .m4a sound files, lol :-)
+
 added sddm to be the xfce login manager:
 	https://unixcop.com/how-to-install-xfce-in-freebsd-13/
 	yes, success login to graphical ui
