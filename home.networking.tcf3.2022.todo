@@ -1,6 +1,11 @@
 
 
 --
+june 8/22
+added sddm to be the xfce login manager:
+	https://unixcop.com/how-to-install-xfce-in-freebsd-13/
+	yes, success login to graphical ui
+--
 error in console: acpi_08: EcCommand: no response to 0x84
 Google this and post to fbsd forum
 further tweaks:
