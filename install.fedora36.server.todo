@@ -34,6 +34,11 @@ from nuc i can ssh to the below machines:
 	freebsd			ssh -v lenovo (password-less session)
 
 --
+note:
+	success copy video file from local nuc box to remote freebsd box using rsync syntax but ensure that both boxes have rsync installed in them.
+	video file can be played in freebsd ootb without any further tweaking
+
+--
 june 7/22
 fire up Ghostbsd box today having IP 192.168.8.127
 Have update of 136 packages
