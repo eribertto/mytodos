@@ -9,6 +9,29 @@ note: if i reboot the tpad and change OS to Fedora security spin then from eos n
 so i need to find a way to generate a new ssh key from eos for almalinux server then copy this over to alma so i can have a password-less session too.
 note: readup on the ssh command line switches, also check the .ssh config file in eos and adjust to suit my condition.
 
+--
+tweaked router to give static IP to the below machines:
+	nucbox	192.168.8.129
+	tpad460	192.168.8.103
+	e590	192.168.8.127
+
+adjusted /etc/hosts of each machine to map IP addresses:
+	nucbox		192.168.8.103	tpad
+				192.168.8.127	e590	lenovo
+	almalinux	192.168.8.129	nuc		nucbox
+				192.168.8.127	e590	lenovo
+	freebsd		192.168.8.129	nuc		nucbox
+
+				192.168.8.103	tpad
+NOTE:
+	success mounting Sabrent 4TB drive detected in Almalinux and Nucbox
+	note duplicati is giving duplicati-cli option only so nah, its an overkill imo.
+	also success creating first nuc backup to sabrent using deja-dup gui
+		total backup size is 1.9GB
+
+from nuc i can ssh to the below machines:
+	almalinux		ssh -v tpad (password-less session)
+	freebsd			ssh -v lenovo (password-less session)
 
 --
 june 7/22
