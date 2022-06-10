@@ -1,4 +1,14 @@
 
+june 10/22
+ssh login to almalinux server from eos is success! this is because there an authorized_keys file in almalinux dot ssh folder. and the content of this file is the public key stored in eos folder .ssh/eos-key-rsa.pub. this was done by doing the ssh copy command below:
+	ssh-copy-id -i eos-key-rsa.pub tpad
+this allows the ssh session to be password-less bcoz the private is used by ssh client in eos to match against the above file in almalinux server.
+
+note: if i reboot the tpad and change OS to Fedora security spin then from eos nuc do a ssh to fedora secu i will get an error something like "man in the middle attack".
+
+so i need to find a way to generate a new ssh key from eos for almalinux server then copy this over to alma so i can have a password-less session too.
+note: readup on the ssh command line switches, also check the .ssh config file in eos and adjust to suit my condition.
+
 
 --
 june 7/22
