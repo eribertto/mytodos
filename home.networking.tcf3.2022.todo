@@ -1,4 +1,25 @@
 
+
+
+
+--
+june 11/22
+Good guide re ssh updating the host key of an ssh server
+https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/infrastructure-services/OpenSSH/#s1-ssh-clients
+
+If the SSH server’s host key changes, the client notifies the user that the connection cannot proceed until the server’s host key is deleted from the ~/.ssh/known_hosts file. Before doing this, however, contact the system administrator of the SSH server to verify the server is not compromised.
+
+To remove a key from the ~/.ssh/known_hosts file, issue a command as follows:
+
+~]# ssh-keygen -R penguin.example.com
+# Host penguin.example.com found: line 15 type ECDSA
+/home/USER/.ssh/known_hosts updated.
+Original contents retained as /home/USER/.ssh/known_hosts.old
+
+
+
+
+
 --
 june 10/22
 sound in freebsd is lost again after doing some tweask from robonuggie freebsd YT channel.
