@@ -1,4 +1,13 @@
 
+--
+June 11/22
+∙ note from fedora36 box I ssh'ed to nucbox successfully. then i created auth key with ssh-keygen then ssh-copy-id
+∙ it to nucbox. now to ssh to nucbox without giving password you need to pass the -i flag and the auth key file to
+∙ do a password-less login.
+∙ hint: created an alias and put it in your dot bashrc file like so
+∙ alias nucssh='ssh -i /home/eribertto/.ssh/id-nucbox nuc'
+
+
 june 10/22
 ssh login to almalinux server from eos is success! this is because there an authorized_keys file in almalinux dot ssh folder. and the content of this file is the public key stored in eos folder .ssh/eos-key-rsa.pub. this was done by doing the ssh copy command below:
 	ssh-copy-id -i eos-key-rsa.pub tpad
