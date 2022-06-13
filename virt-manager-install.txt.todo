@@ -74,6 +74,8 @@ libvirt.libvirtError: internal error: firewalld is set to use the nftables backe
 tried this solution:
 	https://unix.stackexchange.com/questions/632169/cant-use-virt-manager-after-removing-firewalld
 	success? YES, can run the local iso and installed FreeBSD 13.1-release
+	update: 
+		install of FreeBSD-13 is success but no networking, cannot find dhcp server
 
 
 
