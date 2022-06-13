@@ -57,6 +57,19 @@ Jun 13 18:35:51 eriberto-nuc7i5bnh systemd[1]: libvirtd.service: Deactivated suc
 see this link:
 	https://wiki.archlinux.org/title/Virt-Manager#:~:text=Virt-Manager%20is%20a%20graphical%20user%20front%20end%20for,manipulate%20virtual%20machines%20without%20going%20through%20the%20terminal.
 
+Error encountered running the virt-manager:
+Could not start virtual network 'default': internal error: firewalld is set to use the nftables backend, but the required firewalld 'libvirt' zone is missing. Either set the firewalld backend to 'iptables', or ensure that firewalld has a 'libvirt' zone by upgrading firewalld to a version supporting rule priorities (0.7.0+) and/or rebuilding libvirt with --with-firewalld-zone
+
+Traceback (most recent call last):
+  File "/usr/share/virt-manager/virtManager/device/netlist.py", line 208, in _check_network_is_running
+    netobj.start()
+  File "/usr/share/virt-manager/virtManager/object/libvirtobject.py", line 57, in newfn
+    ret = fn(self, *args, **kwargs)
+  File "/usr/share/virt-manager/virtManager/object/network.py", line 69, in start
+    self._backend.create()
+  File "/usr/lib/python3.10/site-packages/libvirt.py", line 3479, in create
+    raise libvirtError('virNetworkCreate() failed')
+libvirt.libvirtError: internal error: firewalld is set to use the nftables backend, but the required firewalld 'libvirt' zone is missing. Either set the firewalld backend to 'iptables', or ensure that firewalld has a 'libvirt' zone by upgrading firewalld to a version supporting rule priorities (0.7.0+) and/or rebuilding libvirt with --with-firewalld-zone
 
 
 
