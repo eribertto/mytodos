@@ -1,0 +1,59 @@
+Package (21)               New Version  Net Change  Download Size
+
+extra/aalib                1.4rc5-14      0.28 MiB       0.13 MiB
+extra/cmake                3.23.2-1      63.84 MiB      10.10 MiB
+extra/gst-plugins-good     1.20.2-2       6.49 MiB       1.96 MiB
+extra/kdnssd               5.94.0-1       0.59 MiB       0.30 MiB
+extra/knotifyconfig        5.94.0-1       0.52 MiB       0.20 MiB
+extra/krdc                 22.04.2-1      3.28 MiB       1.68 MiB
+extra/libcacard            2.7.0-2        0.11 MiB       0.04 MiB
+extra/libshout             1:2.4.6-1      0.19 MiB       0.07 MiB
+community/libvirt          1:8.4.0-1     43.18 MiB       7.84 MiB
+extra/libvncserver         0.9.13-1       0.67 MiB       0.22 MiB
+extra/numactl              2.0.14-3       0.22 MiB       0.08 MiB
+community/phodav           2.5-2          0.23 MiB       0.06 MiB
+community/qtermwidget      1.1.0-1        0.71 MiB       0.21 MiB
+extra/rhash                1.4.2-1        0.31 MiB       0.16 MiB
+community/spice-gtk        0.40-1         3.10 MiB       0.50 MiB
+community/spice-protocol   0.14.4-1       0.09 MiB       0.02 MiB
+community/twolame          0.4.0-2        0.24 MiB       0.08 MiB
+community/usbredir         0.12.0-1       0.17 MiB       0.05 MiB
+extra/wavpack              5.4.0-1        0.43 MiB       0.17 MiB
+community/x11-ssh-askpass  1.2.4.1-7      0.05 MiB       0.02 MiB
+extra/yajl                 2.1.0-5        0.22 MiB       0.05 MiB
+
+--
+sudo pacman --sync qemu-desktop edk2-ovmf dnsmasq iptables-nft virt-manager libvirt
+warning: qemu-desktop-7.0.0-10 is up to date -- reinstalling
+warning: edk2-ovmf-202205-1 is up to date -- reinstalling
+warning: dnsmasq-2.86-2 is up to date -- reinstalling
+warning: iptables-nft-1:1.8.8-1 is up to date -- reinstalling
+warning: virt-manager-4.0.0-1 is up to date -- reinstalling
+warning: libvirt-1:8.4.0-1 is up to date -- reinstalling
+
+--
+sudo systemctl start libvirtd.service
+sudo systemctl enable libvirtd.service 
+sudo systemctl status libvirtd.service 
+
+udo systemctl status libvirtd.service 
+○ libvirtd.service - Virtualization daemon
+     Loaded: loaded (/usr/lib/systemd/system/libvirtd.service; enabled; vendor preset: disabled)
+     Active: inactive (dead) since Mon 2022-06-13 18:35:51 +03; 2min 50s ago
+   Duration: 2min 75ms
+TriggeredBy: ● libvirtd.socket
+             ● libvirtd-admin.socket
+             ● libvirtd-ro.socket
+       Docs: man:libvirtd(8)
+             https://libvirt.org
+    Process: 40195 ExecStart=/usr/bin/libvirtd $LIBVIRTD_ARGS (code=exited, status=0/SUCCESS)
+   Main PID: 40195 (code=exited, status=0/SUCCESS)
+        CPU: 168ms
+
+Jun 13 18:33:51 eriberto-nuc7i5bnh systemd[1]: Starting Virtualization daemon...
+Jun 13 18:33:51 eriberto-nuc7i5bnh systemd[1]: Started Virtualization daemon.
+Jun 13 18:35:51 eriberto-nuc7i5bnh systemd[1]: libvirtd.service: Deactivated successfully.
+
+
+
+
