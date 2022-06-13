@@ -54,6 +54,9 @@ Jun 13 18:33:51 eriberto-nuc7i5bnh systemd[1]: Starting Virtualization daemon...
 Jun 13 18:33:51 eriberto-nuc7i5bnh systemd[1]: Started Virtualization daemon.
 Jun 13 18:35:51 eriberto-nuc7i5bnh systemd[1]: libvirtd.service: Deactivated successfully.
 
+see this link:
+	https://wiki.archlinux.org/title/Virt-Manager#:~:text=Virt-Manager%20is%20a%20graphical%20user%20front%20end%20for,manipulate%20virtual%20machines%20without%20going%20through%20the%20terminal.
+
 
 
 
