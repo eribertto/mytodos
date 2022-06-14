@@ -23,7 +23,8 @@ update of network
  network      active   yes         yes
  notdefault   active   no          yes
 
-
+Good guide of KVM in Arch Linux
+https://www.youtube.com/watch?v=itZf5FpDcV0
 
 
 --
