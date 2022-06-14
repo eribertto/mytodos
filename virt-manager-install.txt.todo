@@ -1,5 +1,23 @@
 --
 
+☐ but first, wipe out aka format the drive having Garuda Linux, i no longer need it:
+	https://wiki.archlinux.org/title/Fstab_
+	https://wiki.archlinux.org/title/Fdisk
+	https://www.redhat.com/sysadmin/partitions-fdisk
+
+
+Consider mounting the extra disk in this nucbox via fstab:
+	❯ lsblk -f
+	NAME        FSTYPE FSVER LABEL    UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+	sda                                                                                   
+	├─sda1      vfat   FAT32 NO_LABEL 299B-3706                             299.1M     0% /boot/efi
+	├─sda2      ext4   1.0            2417e5fc-458e-467d-a097-b292e111e5a6  338.7G    19% /
+	└─sda3      swap   1     swap     4a6b8a6e-a14c-40a2-a4c2-88a7c86c19ee                [SWAP]
+	nvme0n1                                                                               
+	├─nvme0n1p1 vfat   FAT32 NO_LABEL 76AB-9E0A                                           
+	└─nvme0n1p2 btrfs                 d9c712b2-02d0-4b69-bb8a-e29436673941  
+
+
 more links:
 	bridge networking references, for arch linux and arch-flavored distros:
 	https://wiki.archlinux.org/title/Network_bridge
