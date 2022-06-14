@@ -1,4 +1,10 @@
 --
+
+another kvm link:
+	Ditch Virtualbox, Get QEMU/Virt Manager
+	https://www.youtube.com/watch?v=wxxP39cNJOs
+
+
 ☐ todo:
 ❯ sudo pacman --sync virt-viewer bridge-utils openbsd-netcat libguestfs
 resolving dependencies...
@@ -64,6 +70,7 @@ update of network
  notdefault   active   no          yes
 
 Good guide of KVM in Arch Linux:
+	KVM - A great virtualization solution for Linux
 	https://www.youtube.com/watch?v=itZf5FpDcV0
 
 Good bridging guide:
