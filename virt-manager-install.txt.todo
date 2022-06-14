@@ -1,4 +1,44 @@
 --
+☐ todo:
+❯ sudo pacman --sync virt-viewer bridge-utils openbsd-netcat libguestfs
+resolving dependencies...
+looking for conflicting packages...
+:: openbsd-netcat and gnu-netcat are in conflict. Remove gnu-netcat? [y/N] y
+
+Package (22)              Old Version  New Version                Net Change  Download Size
+
+community/augeas                       1.12.0-2                     2.19 MiB       0.56 MiB
+community/debootstrap                  1.0.126-1                    0.18 MiB       0.03 MiB
+core/dhcpcd                            9.4.1-1                      0.47 MiB       0.20 MiB
+gnu-netcat                0.7.1-8                                  -0.06 MiB               
+community/hivex                        1.3.21-6                     0.47 MiB       0.14 MiB
+community/libconfig                    1.7.3-1                      0.24 MiB       0.09 MiB
+community/libewf                       20140608-6                   7.61 MiB       0.95 MiB
+community/libgovirt                    0.3.8-1                      0.39 MiB       0.08 MiB
+community/libldm                       0.2.5-2                      0.11 MiB       0.04 MiB
+community/lrzip                        0.651-2                      0.39 MiB       0.17 MiB
+extra/lzop                             1.04-3                       0.20 MiB       0.07 MiB
+extra/perl-libintl-perl                1.32-3                       4.00 MiB       0.70 MiB
+community/sleuthkit                    4.11.1-1                    16.48 MiB       1.63 MiB
+extra/squashfs-tools                   4.5.1-1                      0.53 MiB       0.19 MiB
+extra/strace                           5.17-1                       1.82 MiB       0.47 MiB
+community/supermin                     5.3.1-1                      2.15 MiB       0.69 MiB
+core/syslinux                          6.04.pre2.r11.gbf6db5b4-3    4.23 MiB       1.31 MiB
+community/yara                         4.2.1-1                      0.81 MiB       0.24 MiB
+extra/bridge-utils                     1.7.1-1                      0.04 MiB       0.02 MiB
+community/libguestfs                   1.48.1-4                    20.81 MiB       5.52 MiB
+community/openbsd-netcat               1.218_5-1                    0.04 MiB       0.02 MiB
+community/virt-viewer                  11.0-1                       1.22 MiB       0.28 MiB
+
+Total Download Size:   13.40 MiB
+Total Installed Size:  64.36 MiB
+Net Upgrade Size:      64.30 MiB
+
+:: Proceed with installation? [Y/n] n
+
+
+
+--
 june 14/22
 update of network
 ❯ ip -4 a
@@ -28,6 +68,8 @@ Good guide of KVM in Arch Linux:
 
 Good bridging guide:
 	https://computingforgeeks.com/how-to-create-and-configure-bridge-networking-for-kvm-in-linux/#:~:text=Method%202:%20Create%20KVM%20bridge,a%20new%20bridge%20XML%20file.&text=Add%20bridge%20details%20to%20the%20file.&text=Check%20to%20Confirm%20if%20autostart,should%20read%20yes%20as%20well.&text=Confirm%20bridge%20creation%20and%20IP%20address.
+Bridging concept:
+	An example, if you want to run some kind of server inside a virtual machine, you may want to give it an external IP address, so that other hosts can communicate with it directly. Let's say your router grants addresses in the range 10.0.0.x. Your physical hosts uses 10.0.0.4, but your virtual machine runs with 192.168.2.133. Without some changes to how the system interprets packets sent back and forth, clients on the 10.0.0 network will not be able to talk to clients on the 192.168.2 network. You can work around the problem by using bridging. This will allow your virtual machines to connect to the router and gain external IP addresses.
 
 --
 june 13/22
