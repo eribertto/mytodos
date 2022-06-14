@@ -23,9 +23,11 @@ update of network
  network      active   yes         yes
  notdefault   active   no          yes
 
-Good guide of KVM in Arch Linux
-https://www.youtube.com/watch?v=itZf5FpDcV0
+Good guide of KVM in Arch Linux:
+	https://www.youtube.com/watch?v=itZf5FpDcV0
 
+Good bridging guide:
+	https://computingforgeeks.com/how-to-create-and-configure-bridge-networking-for-kvm-in-linux/#:~:text=Method%202:%20Create%20KVM%20bridge,a%20new%20bridge%20XML%20file.&text=Add%20bridge%20details%20to%20the%20file.&text=Check%20to%20Confirm%20if%20autostart,should%20read%20yes%20as%20well.&text=Confirm%20bridge%20creation%20and%20IP%20address.
 
 --
 june 13/22
