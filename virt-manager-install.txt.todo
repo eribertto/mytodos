@@ -1,11 +1,17 @@
 --
 
+more links:
+	bridge networking references, for arch linux and arch-flavored distros:
+	https://wiki.archlinux.org/title/Network_bridge
+	https://computingforgeeks.com/how-to-create-and-use-network-bridge-on-arch-linux-and-manjaro/
+	https://wiki.archlinux.org/title/Libvirt
+
 another kvm link:
 	Ditch Virtualbox, Get QEMU/Virt Manager
 	https://www.youtube.com/watch?v=wxxP39cNJOs
 
 
-☐ todo:
+✔ todo: @done(22-06-14 16:41)
 ❯ sudo pacman --sync virt-viewer bridge-utils openbsd-netcat libguestfs
 resolving dependencies...
 looking for conflicting packages...
