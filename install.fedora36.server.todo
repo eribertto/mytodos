@@ -1,4 +1,13 @@
 
+
+
+--
+june 15/22
+from nuc eos box connected to tpad fedora box AFTER removing the offending key in the ~/.ssh/known_hosts file like so:
+	ssh-keygen -R tpad
+	then ssh to tpad: ssh -v tpad
+	entered the passwd of user eribertto in fedora box and boom, im inside the box.
+	☐ create a auth key and copy it to tpad/fedora OS for passwordless session.
 --
 June 11/22
 ∙ note from fedora36 box I ssh'ed to nucbox successfully. then i created auth key with ssh-keygen then ssh-copy-id
