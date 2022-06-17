@@ -9,6 +9,11 @@ another disk exercise:
 		✔ success @done(22-06-17 19:53)
 		root BHU890))poi
 		eribertto MKO00987ytr
+note: this install is headless for now.
+boot to other disk nvme0:
+	result: no boot to nvme0 disk!
+
+
 another disk exercise:
 
 If you have an IDE disk, substitute ad for da.
