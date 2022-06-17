@@ -23,6 +23,10 @@ Original contents retained as /home/USER/.ssh/known_hosts.old
 --
 
 --
+how to list disks in Freebsd
+https://linuxhint.com/list-disks-freebsd/
+
+--
 june 17/22
 boot lenovo e590 to freebsd and ssh to it; run freebsd-update fetch and no update so far.
 check the desktop for sound and voila! there is sound!!!
