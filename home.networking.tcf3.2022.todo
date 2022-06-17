@@ -12,6 +12,9 @@ another disk exercise:
 note: this install is headless for now.
 boot to other disk nvme0:
 	result: no boot to nvme0 disk!
+	likely reason due to the prompt encountered during the install process e.g.:
+		There is multiple FreeBSD efi boot entries, would you like to remove them all and add the new one?
+		I selected Yes
 
 
 another disk exercise:
