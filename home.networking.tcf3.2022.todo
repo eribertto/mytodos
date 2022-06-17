@@ -25,6 +25,8 @@ Original contents retained as /home/USER/.ssh/known_hosts.old
 --
 how to list disks in Freebsd
 https://linuxhint.com/list-disks-freebsd/
+using sade:
+	https://www.cyberciti.biz/faq/freebsd-adding-second-hard-disk-howto/#:~:text=%20FreeBSD%20add%20new%20disk%20using%20bsdinstall%2Fsade%20(method,the%20Finish%20button%20to%20bring%20confirmation...%20More%20
 
 --
 june 17/22
