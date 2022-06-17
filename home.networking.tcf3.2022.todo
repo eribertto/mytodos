@@ -9,8 +9,47 @@
 
 
 --
+✔ disk formatting, mounting part two: try this method if will work @done(22-06-17 16:57)
+☐ success or fail: FAIL
+
+# delete the partition
+✔ gpart delete -i 1 ada0 @done(22-06-17 17:04)
+
+# WIPE THE PLATTER
+✔ gpart destroy -F ada0 @done(22-06-17 17:13)
+	Note the type GPT to blank after the command:
+		was:
+		DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+		ada0             0:105 932G GPT                                               - -
+		<FREE>         -:-   932G -           
+		now:
+		DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+		ada0             0:105 932G -                                                 - -
+
+# PLACE A BLANK BSD STYPE PARTITION ON IT
+✔ gpart create -s bsd ada0 @done(22-06-17 17:13)
+note the type GPT changed to BSD:
+		DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+		ada0             0:105 932G BSD                                               - -
+		<FREE>         -:-   932G -                                                 - -
+
+# DEDICATE THE ENTIRE PLATTER FOR FFS(2)
+✔ gpart add -t freebsd-ufs ada0 @done(22-06-17 17:16)
+note the newly created partition ada0a of type freebsd-ufs:
+	DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+	ada0             0:105 932G BSD                                               - -
+	ada0a          1:156 932G freebsd-ufs                                       - -
+
+# NOW FORMAT IT (ffs(2))
+newfs -U -O 2 /dev/ada0p1
+fail:
+	newfs: /dev/ada0a: failed to open disk for writing
+
+# did it work?
+mount -t ufs /dev/ada0 /data
 
 --
+june 17/22
 Add (not) empty disk to my freebsd box:
 	eribertto@freebsd ~ $ gpart show
 =>       40  500118112  nvd0  GPT  (238G)
@@ -110,10 +149,7 @@ Still error:
 	eribertto@freebsd ~ $ newfs -O 1 /dev/ada0p1 
 	newfs: /dev/ada0p1: failed to open disk for writing
 
-	
-
-
-
+--
 how to list disks in Freebsd
 https://linuxhint.com/list-disks-freebsd/
 using sade:
