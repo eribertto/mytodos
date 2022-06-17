@@ -3,7 +3,48 @@
 
 
 --
+another disk exercise:
 
+If you have an IDE disk, substitute ad for da.
+✔ # dd if=/dev/zero of=/dev/da1 bs=1k count=1 @done(22-06-17 18:14)
+✔ # fdisk -BI da1 #Initialize your new disk @done(22-06-17 18:16)
+	prompt:
+	******* Working on device /dev/ada0 *******
+	fdisk: invalid fdisk partition table found
+✔ # bsdlabel -B -w da1s1 auto #Label it. @done(22-06-17 18:18)
+	note the output:
+	DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+	ada0             0:105 932G MBR                                               - -
+	ada0s1         1:156 932G BSD                                               - -
+		ada0s1a      1:157 932G freebsd-ufs                                       - -
+
+# bsdlabel -e da1s1 # Edit the bsdlabel just created and add any partitions.
+# mkdir -p /1
+# newfs /dev/da1s1e # Repeat this for every partition you created.
+# mount /dev/da1s1e /1 # Mount the partition(s)
+# vi /etc/fstab # Add the appropriate entry/entries to your /etc/fstab.
+
+
+
+next exercise:
+	try using bsdinstall to install freebsd in ada0 drive using ssh from nucbox:
+		☐ success or fail?
+		error: vfs.zfs.min_auto_shift: 12
+		sysctl: vfs.zfs.min_auto_ashift=12: Operation not allowed (permission issue)
+	try2 error:
+		eval: cannot create /tmp/bsdinstall_etc/fstab: No such file or directory
+	note however the change in scheme to GPT:
+	DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+	ada0             0:105 932G GPT                                               - -
+	ada0p1         1:156 260M efi                                    gpt/efiboot0 -
+	<FREE>         -:-   931G -                                                 - -
+	then i deleted it:
+	root@freebsd:/home/eribertto # gpart delete -i 1 ada0
+	ada0p1 deleted
+	root@freebsd:/home/eribertto # lsblk
+	DEVICE         MAJ:MIN SIZE TYPE                                          LABEL MOUNT
+	ada0             0:105 932G GPT                                               - -
+	<FREE>         -:-   932G -                                                 - -
 
 
 
