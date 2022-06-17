@@ -4,6 +4,12 @@
 
 --
 another disk exercise:
+	install FreeBSD in ada0 just to reclaim the space
+	result:
+		✔ success @done(22-06-17 19:53)
+		root BHU890))poi
+		eribertto MKO00987ytr
+another disk exercise:
 
 If you have an IDE disk, substitute ad for da.
 ✔ # dd if=/dev/zero of=/dev/da1 bs=1k count=1 @done(22-06-17 18:14)
