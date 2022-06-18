@@ -4,6 +4,25 @@
 
 
 --
+update:
+	✔ installed openssh and enabled sshd.service with systemctl. now can be seen open from nucbox machine. @done(22-06-18 08:45)
+		note the error connecting by ssh:
+			@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+			@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+			@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+			IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+			Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+			It is also possible that a host key has just been changed.
+			The fingerprint for the ED25519 key sent by the remote host is
+			SHA256:ha6qCC7XUTFqtKXVQhDVp8bjuMSlVYKPTaVroj5YBv8.
+			Please contact your system administrator.
+			Add correct host key in /home/eribertto/.ssh/known_hosts to get rid of this message.
+			Offending ECDSA key in /home/eribertto/.ssh/known_hosts:19
+			Host key for lenovo has changed and you have requested strict checking.
+			Host key verification failed.
+
+	✔ install is success e.g. can login to budgie normally, however the desktop is not very good looking. @done(22-06-18 08:22)
+	✔ todo: change desktop to xfce @done(22-06-18 08:34)
 june 18/22
 Current Release: 2022.06.01
 Plan to install Arch Linux over Freebsd in TP E590 e.g. wipe out Fbsd totally.
@@ -18,8 +37,8 @@ Steps:
 		✔ passawd MKO00987ytr @done(22-06-18 07:13)
 	✔ root passwd: BHU890))poi @done(22-06-18 07:13)
 	desktop of choice: 
+		✔ XFCE @done(22-06-18 08:35)
 		✔ Budgie @done(22-06-18 07:12)
-		XFCE
 		KDE
 	✔ network connection is LAN @done(22-06-18 07:13)
 	✔ use intel graphics open source @done(22-06-18 07:14)
