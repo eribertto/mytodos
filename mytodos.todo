@@ -1,6 +1,24 @@
 
 
 
+
+
+--
+june 18/22
+Plan to install Arch Linux over Freebsd in TP E590 e.g. wipe out Fbsd totally.
+Steps:
+	Root partition in nvme drive
+	User home partition in IDE SATA drive
+	Partitioning is manual
+	username eribertto
+	passawd MKO00987ytr
+	user is admin
+	desktop of choice: XFCE/KDE
+	network connection is LAN
+	IP is static 192.168.8.127
+	Net mask 255.255.255.0
+
+
 Add section about packettracer install copied from web app standard notes:
 	april 16/22
 	Note: installing the Cisco Packettracer in Garuda Linux:
