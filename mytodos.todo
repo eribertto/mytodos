@@ -5,18 +5,37 @@
 
 --
 june 18/22
+Current Release: 2022.06.01
 Plan to install Arch Linux over Freebsd in TP E590 e.g. wipe out Fbsd totally.
 Steps:
 	Root partition in nvme drive
-	User home partition in IDE SATA drive
+		✔ use btrfs @done(22-06-18 07:35)
+		☐ verify the finished partitions after finish of install
+		☐ User home partition???
 	Partitioning is manual
-	username eribertto
-	passawd MKO00987ytr
-	user is admin
-	desktop of choice: XFCE/KDE
-	network connection is LAN
-	IP is static 192.168.8.127
-	Net mask 255.255.255.0
+	✔ username eribertto @done(22-06-18 07:13)
+		✔ user is admin @done(22-06-18 07:13)
+		✔ passawd MKO00987ytr @done(22-06-18 07:13)
+	✔ root passwd: BHU890))poi @done(22-06-18 07:13)
+	desktop of choice: 
+		✔ Budgie @done(22-06-18 07:12)
+		XFCE
+		KDE
+	✔ network connection is LAN @done(22-06-18 07:13)
+	✔ use intel graphics open source @done(22-06-18 07:14)
+	✔ audio is pipewire default @done(22-06-18 07:14)
+	additional packages:
+		✔ vivaldi vim ranger git okular terminator geany qbittorrent ipython @done(22-06-18 07:36)
+		note:
+			aur helpers such as yay, paru are not supported by Arch Linux and should be done manually
+			https://wiki.archlinux.org/title/AUR_helpers
+			enable additional repos:
+				☐ todo: install yay AUR helper after the install
+				✔ multilib @done(22-06-18 07:25)
+				✔ testing @done(22-06-18 07:26)
+				https://wiki.archlinux.org/title/Official_repositories#Enabling_multilib
+	✔ IP is static 192.168.8.127 @done(22-06-18 07:46)
+	✔ Net mask 255.255.255.0 @done(22-06-18 07:47)
 
 
 Add section about packettracer install copied from web app standard notes:
