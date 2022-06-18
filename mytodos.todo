@@ -9,8 +9,8 @@ update:
 		☐ install yay
 		☐ setup correct time
 		☐ rice xfce
-		setup vimrc, bashrc
-		install bash prompt 
+		☐ setup vimrc, bashrc
+		☐ install bash prompt
 	✔ installed openssh and enabled sshd.service with systemctl. now can be seen open from nucbox machine. @done(22-06-18 08:45)
 		note the error connecting by ssh:
 			@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
