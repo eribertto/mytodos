@@ -5,6 +5,10 @@
 
 --
 update:
+	todo:
+		☐ install yay
+		☐ setup correct time
+		☐ rice xfce
 	✔ installed openssh and enabled sshd.service with systemctl. now can be seen open from nucbox machine. @done(22-06-18 08:45)
 		note the error connecting by ssh:
 			@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
