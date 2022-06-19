@@ -11,9 +11,10 @@ Done setting the mirrors by rankmirrors
 	Encountered error:
 		ERROR: Running makepkg as root is not allowed as it can cause permanent,
 		catastrophic damage to your system.
-	☐ Todo:
+	✔ Todo success!: @done(22-06-19 05:43)
 		Try to follow this guide using AUR without the need of yay:
 			https://wiki.archlinux.org/title/Arch_User_Repository
+		Yay is installed successfully.
 
 
 Pacman Mirrorlist Generator:
