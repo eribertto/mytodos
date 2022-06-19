@@ -1,5 +1,32 @@
 
 
+--
+Connect to Lenove arch box from nuc box via ssh by first removing the offending key of the previous OS
+then install apps pacman-contrib (for rankmirrors) and task for cli note taking
+setup Mirrors by following this link:
+	https://wiki.archlinux.org/title/Mirrors
+Done setting the mirrors by rankmirrors 
+☐ Install yay:
+	https://www.linuxscrew.com/yaourt-yay-arch-linux#:~:text=To%20install%20Yay%20for%20Arch%20Linux,%20run%20the,dependencies%20to%20retrieve%20and%20build%20the%20Yay%20code.
+	Encountered error:
+		ERROR: Running makepkg as root is not allowed as it can cause permanent,
+		catastrophic damage to your system.
+	☐ Todo:
+		Try to follow this guide using AUR without the need of yay:
+			https://wiki.archlinux.org/title/Arch_User_Repository
+
+
+Pacman Mirrorlist Generator:
+	Get the output of the webpage and replace the existing mirrorlist.
+Arch Reflector:
+	https://xyne.dev/projects/reflector/
+	Examples
+Print the latest mirrorlist to STDOUT:
+reflector
+
+Sort the fifteen most recently synchronized mirrors by download speed and overwrite the local mirrorlist:
+✔ reflector --latest 15 --sort rate --save /etc/pacman.d/mirrorlist @done(22-06-18 20:44)
+
 
 --
 Tasheel Finance
