@@ -1,5 +1,22 @@
 
 
+
+
+
+--
+Jun24/22
+ID Age   Tag                 Due   Description                                                                                                   Urg 
+12  3d   renew               -1d   register for PH driver license renewal this Friday                                                            10.1
+ 2  3w   iloilo              22h   prepare list of todos on going home to PH esp drivers ID renew Prulife policy claim rcbc number update new    9.29
+                                   atm card bpi/rcbc, etc                                                                                            
+ 7  7d   leave                1d   register to oneHealthPass 2 days before leave date or Jun 25, make ready Philhealth number needed in the      8.81
+                                   online registration                                                                                               
+ 9  3d   flight pal vacation       check status of PAL flight upgrade to business class extra 500usd                                             1.02
+10  3d   creditcard pay            top up pay credit card riyadbank                                                                              0.92
+ 8  7d   leave                     sanitize mobile phone before going on leave travel June 27                                                    0.84
+11  3d   cash                      get cash in atm for take home money or get in airport in riyad                                                0.82
+
+
 --
 Connect to Lenove arch box from nuc box via ssh by first removing the offending key of the previous OS
 then install apps pacman-contrib (for rankmirrors) and task for cli note taking
