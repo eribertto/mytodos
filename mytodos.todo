@@ -2,6 +2,18 @@
 
 
 --
+July 19/22
+Applied update to lenovo arch linux box via ssh
+NB: encountered this error:
+	Error: File /var/cache/pacman/pkg/libcap-2.65-1-x86_64.pkg.tar.zst is corrupted (invalid or corrupted package (PGP signature))
+	solution:
+		# pacman -Sy archlinux-keyring
+		# pacman -Syu
+		https://bbs.archlinux.org/viewtopic.php?id=258247
+
+
+
+--
 July 18/22
 Back to duty in saudi, back to reality again lol.
 
