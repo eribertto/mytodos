@@ -1,5 +1,8 @@
 
-
+--
+July 22
+Apply system updates to fedora 36 machine then install Gnome desktop using dnf groupinstall.
+Begin following scripts from the ebook Wicked Cool Scripts
 
 --
 July 19/22
