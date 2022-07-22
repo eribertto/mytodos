@@ -1,0 +1,34 @@
+#!/bin/sh
+# validAlphaNum -- Ensures that input consists only of alphabetical and numeric characters
+
+# create a function
+validAlphaNum()
+{
+# validate arg: returns 0 if all upper+lower+digits; 1 otherwise
+
+# remove all unacceptable chars; note the use of sed stream editor
+# -e means execute whatever is available in the pattern space as a shell command
+# only available in GNU sed
+
+validchars="$(echo "$1" | sed -e 's/[^[:alnum:]]//g')"
+if [ "$validchars" = "$1" ]; then
+	return 0
+else
+	return 1
+fi
+}
+
+# begin main script -- delete or comment out everything below this line if you want to include this in other scripts
+# /sbin/echo -n "Enter input: "
+/usr/bin/echo -n "Enter input: "
+read -r input
+
+# input validation
+if ! validAlphaNum "$input" ; then
+	echo "Please enter only letters and numbers." >&2
+	exit 1
+else
+	echo "Input is valid."
+fi
+exit 0
+
